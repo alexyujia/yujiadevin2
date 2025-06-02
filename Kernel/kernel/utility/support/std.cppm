@@ -2,41 +2,41 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.support.std;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.string.string;
+export module libra.kernel.utility.support.std;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.string.string;
 
 export {
 
 	#pragma region hash
 
 	template <>
-	struct std::hash<Twinning::Kernel::CStringView> {
+	struct std::hash<Libra::Kernel::CStringView> {
 		auto operator () (
-			Twinning::Kernel::CStringView const & it
+			Libra::Kernel::CStringView const & it
 		) const noexcept -> std::size_t {
-			return std::hash<std::string_view>{}(Twinning::Kernel::make_std_string_view(it));
+			return std::hash<std::string_view>{}(Libra::Kernel::make_std_string_view(it));
 		}
 	};
 
 	template <>
-	struct std::hash<Twinning::Kernel::VStringView> {
+	struct std::hash<Libra::Kernel::VStringView> {
 		auto operator () (
-			Twinning::Kernel::VStringView const & it
+			Libra::Kernel::VStringView const & it
 		) const noexcept -> std::size_t {
-			return std::hash<std::string_view>{}(Twinning::Kernel::make_std_string_view(it));
+			return std::hash<std::string_view>{}(Libra::Kernel::make_std_string_view(it));
 		}
 	};
 
 	template <>
-	struct std::hash<Twinning::Kernel::String> {
+	struct std::hash<Libra::Kernel::String> {
 		auto operator () (
-			Twinning::Kernel::String const & it
+			Libra::Kernel::String const & it
 		) const noexcept -> std::size_t {
-			return std::hash<std::string_view>{}(Twinning::Kernel::make_std_string_view(it));
+			return std::hash<std::string_view>{}(Libra::Kernel::make_std_string_view(it));
 		}
 	};
 

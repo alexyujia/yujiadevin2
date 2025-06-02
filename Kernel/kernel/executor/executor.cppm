@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.executor.executor;
-import twinning.kernel.utility;
-import twinning.kernel.executor.context;
-import twinning.kernel.executor.environment;
-import twinning.kernel.interface.proxy;
+export module libra.kernel.executor.executor;
+import libra.kernel.utility;
+import libra.kernel.executor.context;
+import libra.kernel.executor.environment;
+import libra.kernel.interface.proxy;
 
-export namespace Twinning::Kernel::Executor {
+export namespace Libra::Kernel::Executor {
 
 	#pragma region function
 

@@ -2,20 +2,20 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.marmalade.dzip.pack;
-import twinning.kernel.utility;
-import twinning.kernel.tool.marmalade.dzip.version;
-import twinning.kernel.tool.marmalade.dzip.definition;
-import twinning.kernel.tool.marmalade.dzip.structure;
-import twinning.kernel.tool.marmalade.dzip.common;
-import twinning.kernel.tool.data.compression.deflate.common;
-import twinning.kernel.tool.data.compression.deflate.compress;
-import twinning.kernel.tool.data.compression.bzip2.common;
-import twinning.kernel.tool.data.compression.bzip2.compress;
-import twinning.kernel.tool.data.compression.lzma.common;
-import twinning.kernel.tool.data.compression.lzma.compress;
+export module libra.kernel.tool.marmalade.dzip.pack;
+import libra.kernel.utility;
+import libra.kernel.tool.marmalade.dzip.version;
+import libra.kernel.tool.marmalade.dzip.definition;
+import libra.kernel.tool.marmalade.dzip.structure;
+import libra.kernel.tool.marmalade.dzip.common;
+import libra.kernel.tool.data.compression.deflate.common;
+import libra.kernel.tool.data.compression.deflate.compress;
+import libra.kernel.tool.data.compression.bzip2.common;
+import libra.kernel.tool.data.compression.bzip2.compress;
+import libra.kernel.tool.data.compression.lzma.common;
+import libra.kernel.tool.data.compression.lzma.compress;
 
-export namespace Twinning::Kernel::Tool::Marmalade::DZip {
+export namespace Libra::Kernel::Tool::Marmalade::DZip {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Pack :

@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.encryption.exor.encrypt;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.encryption.exor.common;
+export module libra.kernel.tool.data.encryption.exor.encrypt;
+import libra.kernel.utility;
+import libra.kernel.tool.data.encryption.exor.common;
 
-export namespace Twinning::Kernel::Tool::Data::Encryption::EXOR {
+export namespace Libra::Kernel::Tool::Data::Encryption::EXOR {
 
 	struct Encrypt :
 		Common {

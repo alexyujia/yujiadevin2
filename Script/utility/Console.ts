@@ -1,4 +1,4 @@
-namespace Twinning.Script.Console {
+namespace Libra.Script.Console {
 
 	// ------------------------------------------------
 

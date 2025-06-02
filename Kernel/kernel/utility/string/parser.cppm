@@ -2,28 +2,28 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.string.parser;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.null;
-import twinning.kernel.utility.miscellaneous.number_variant;
-import twinning.kernel.utility.miscellaneous.character_series.stream;
-import twinning.kernel.utility.miscellaneous.character_series.type;
-import twinning.kernel.utility.miscellaneous.byte_series.container;
-import twinning.kernel.utility.miscellaneous.byte_series.utility;
-import twinning.kernel.utility.range.algorithm;
-import twinning.kernel.utility.range.number_range;
-import twinning.kernel.utility.range.range_wrapper;
-import twinning.kernel.utility.string.basic_string_view;
-import twinning.kernel.utility.string.basic_string;
-import twinning.kernel.utility.string.basic_static_string;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.support.character_stream.basic;
-import twinning.kernel.third.mscharconv;
+export module libra.kernel.utility.string.parser;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.null;
+import libra.kernel.utility.miscellaneous.number_variant;
+import libra.kernel.utility.miscellaneous.character_series.stream;
+import libra.kernel.utility.miscellaneous.character_series.type;
+import libra.kernel.utility.miscellaneous.byte_series.container;
+import libra.kernel.utility.miscellaneous.byte_series.utility;
+import libra.kernel.utility.range.algorithm;
+import libra.kernel.utility.range.number_range;
+import libra.kernel.utility.range.range_wrapper;
+import libra.kernel.utility.string.basic_string_view;
+import libra.kernel.utility.string.basic_string;
+import libra.kernel.utility.string.basic_static_string;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.support.character_stream.basic;
+import libra.kernel.third.mscharconv;
 
-export namespace Twinning::Kernel::StringParser {
+export namespace Libra::Kernel::StringParser {
 
 	#pragma region character
 

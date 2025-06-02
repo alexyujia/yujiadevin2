@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.data.encryption {
+namespace Libra.Script.Executor.Implement.data.encryption {
 
 	// ------------------------------------------------
 
@@ -214,4 +214,4 @@ namespace Twinning.Script.Executor.Implement.data.encryption {
 
 }
 
-Twinning.Script.Executor.Implement.data.encryption.injector;
+Libra.Script.Executor.Implement.data.encryption.injector;

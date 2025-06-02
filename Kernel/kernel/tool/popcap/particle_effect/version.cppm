@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.particle_effect.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.particle_effect.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::ParticleEffect {
+export namespace Libra::Kernel::Tool::PopCap::ParticleEffect {
 
 	M_record_of_map(
 		M_wrap(Version),

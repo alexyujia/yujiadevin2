@@ -1,4 +1,4 @@
-namespace Twinning.Script.TextGenerator {
+namespace Libra.Script.TextGenerator {
 
 	// ------------------------------------------------
 

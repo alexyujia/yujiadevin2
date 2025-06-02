@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.encoding.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.texture.encoding.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Texture::Encoding {
+export namespace Libra::Kernel::Tool::Texture::Encoding {
 
 	M_enumeration(
 		M_wrap(Format),

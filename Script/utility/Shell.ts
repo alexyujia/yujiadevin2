@@ -1,4 +1,4 @@
-namespace Twinning.Script.Shell {
+namespace Libra.Script.Shell {
 
 	// ------------------------------------------------
 

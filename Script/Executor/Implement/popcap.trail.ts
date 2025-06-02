@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.trail {
+namespace Libra.Script.Executor.Implement.popcap.trail {
 
 	// ------------------------------------------------
 
@@ -145,4 +145,4 @@ namespace Twinning.Script.Executor.Implement.popcap.trail {
 
 }
 
-Twinning.Script.Executor.Implement.popcap.trail.injector;
+Libra.Script.Executor.Implement.popcap.trail.injector;

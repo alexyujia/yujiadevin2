@@ -29,7 +29,7 @@ class NotificationHelper {
         ),
         windows: WindowsInitializationSettings(
           appName: kApplicationName,
-          appUserModelId: 'TwinStar.Twinning.Assistant.Notification',
+          appUserModelId: 'Yujia.Libra.Assistant.Notification',
           guid: '3FCD5C89-78F3-489B-88E5-37CBC3C3FC1A',
           iconPath: 'asset/logo.png',
         ),
@@ -49,7 +49,7 @@ class NotificationHelper {
       description,
       const NotificationDetails(
         android: AndroidNotificationDetails(
-          'com.twinstar.twinning.assistant.notification_channel.main',
+          'com.yujia.libra.assistant.notification_channel.main',
           'Main',
         ),
         iOS: DarwinNotificationDetails(

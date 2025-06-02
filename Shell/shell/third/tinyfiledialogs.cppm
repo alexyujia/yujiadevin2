@@ -11,11 +11,11 @@ module;
 
 #endif
 
-export module twinning.shell.third.tinyfiledialogs;
+export module libra.shell.third.tinyfiledialogs;
 
 #if defined M_system_windows || defined M_system_linux || defined M_system_macintosh
 
-export namespace Twinning::Shell::Third::tinyfiledialogs {
+export namespace Libra::Shell::Third::tinyfiledialogs {
 
 	using ::tinyfd_openFileDialog;
 

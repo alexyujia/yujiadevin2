@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.image.size;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.miscellaneous.dimension;
+export module libra.kernel.utility.image.size;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.miscellaneous.dimension;
 
-export namespace Twinning::Kernel::Image {
+export namespace Libra::Kernel::Image {
 
 	#pragma region type
 

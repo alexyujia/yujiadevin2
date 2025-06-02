@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.wwise.sound_bank {
+namespace Libra.Script.Executor.Implement.wwise.sound_bank {
 
 	// ------------------------------------------------
 
@@ -139,4 +139,4 @@ namespace Twinning.Script.Executor.Implement.wwise.sound_bank {
 
 }
 
-Twinning.Script.Executor.Implement.wwise.sound_bank.injector;
+Libra.Script.Executor.Implement.wwise.sound_bank.injector;

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.common.protocol_buffer_variable_length_integer;
-import twinning.kernel.utility;
+export module libra.kernel.tool.common.protocol_buffer_variable_length_integer;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::ProtocolBufferVariableLengthInteger {
+export namespace Libra::Kernel::Tool::ProtocolBufferVariableLengthInteger {
 
 	#pragma region zig zag
 

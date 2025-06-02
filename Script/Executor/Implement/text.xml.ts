@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.text.xml {
+namespace Libra.Script.Executor.Implement.text.xml {
 
 	// ------------------------------------------------
 
@@ -64,4 +64,4 @@ namespace Twinning.Script.Executor.Implement.text.xml {
 
 }
 
-Twinning.Script.Executor.Implement.text.xml.injector;
+Libra.Script.Executor.Implement.text.xml.injector;

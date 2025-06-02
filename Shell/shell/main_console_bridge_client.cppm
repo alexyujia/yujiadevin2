@@ -2,12 +2,12 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.main_console_bridge_client;
-import twinning.shell.utility.string;
-import twinning.shell.utility.interaction;
-import twinning.shell.bridge.client;
+export module libra.shell.main_console_bridge_client;
+import libra.shell.utility.string;
+import libra.shell.utility.interaction;
+import libra.shell.bridge.client;
 
-export namespace Twinning::Shell {
+export namespace Libra::Shell {
 
 	#pragma region type
 

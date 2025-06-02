@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.miscellaneous.pvz2_cn_alpha_palette_texture.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.miscellaneous.pvz2_cn_alpha_palette_texture.common;
+export module libra.kernel.tool.miscellaneous.pvz2_cn_alpha_palette_texture.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.miscellaneous.pvz2_cn_alpha_palette_texture.common;
 
-export namespace Twinning::Kernel::Tool::Miscellaneous::PvZ2CNAlphaPaletteTexture {
+export namespace Libra::Kernel::Tool::Miscellaneous::PvZ2CNAlphaPaletteTexture {
 
 	struct Encode :
 		Common {

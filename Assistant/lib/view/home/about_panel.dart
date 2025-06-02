@@ -41,7 +41,7 @@ class AboutPanel extends StatelessWidget {
             children: [
               Expanded(
                 child: Text(
-                  '© 2023-2024 TwinStar. All rights reserved.',
+                  '© 2023-2024 Yujia. All rights reserved.',
                   overflow: TextOverflow.clip,
                   style: theme.textTheme.bodyMedium,
                 ),

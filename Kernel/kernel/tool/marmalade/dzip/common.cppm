@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.marmalade.dzip.common;
-import twinning.kernel.utility;
-import twinning.kernel.tool.marmalade.dzip.version;
-import twinning.kernel.tool.marmalade.dzip.definition;
-import twinning.kernel.tool.marmalade.dzip.structure;
+export module libra.kernel.tool.marmalade.dzip.common;
+import libra.kernel.utility;
+import libra.kernel.tool.marmalade.dzip.version;
+import libra.kernel.tool.marmalade.dzip.definition;
+import libra.kernel.tool.marmalade.dzip.structure;
 
-export namespace Twinning::Kernel::Tool::Marmalade::DZip {
+export namespace Libra::Kernel::Tool::Marmalade::DZip {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Common {

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.miscellaneous.xbox_tiled_texture.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.miscellaneous.xbox_tiled_texture.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Miscellaneous::XboxTiledTexture {
+export namespace Libra::Kernel::Tool::Miscellaneous::XboxTiledTexture {
 
 	struct Common {
 

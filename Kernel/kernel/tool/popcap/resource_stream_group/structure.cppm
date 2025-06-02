@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.resource_stream_group.structure;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.resource_stream_group.version;
-import twinning.kernel.tool.popcap.resource_stream_bundle.shared;
+export module libra.kernel.tool.popcap.resource_stream_group.structure;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.resource_stream_group.version;
+import libra.kernel.tool.popcap.resource_stream_bundle.shared;
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamGroup::Structure {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamGroup::Structure {
 
 	#pragma region magic identifier
 
@@ -164,7 +164,7 @@ export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamGroup::Structure 
 
 // NOTE : MORESPACE
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	template <auto t_version> requires
 		AutoConstraint

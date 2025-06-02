@@ -2,17 +2,17 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.data.xml.node;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.container.variant.enumerable_variant;
-import twinning.kernel.utility.container.list.list;
-import twinning.kernel.utility.container.map.map;
-import twinning.kernel.utility.string.string;
+export module libra.kernel.utility.data.xml.node;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.container.variant.enumerable_variant;
+import libra.kernel.utility.container.list.list;
+import libra.kernel.utility.container.map.map;
+import libra.kernel.utility.string.string;
 
-export namespace Twinning::Kernel::XML {
+export namespace Libra::Kernel::XML {
 
 	#pragma region declaration
 

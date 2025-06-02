@@ -45,9 +45,9 @@ target('shell', function()
 		helper.import_vld_if_needed(target)
 	end)
 	set_runargs(
-		'/Twinning/kernel',
-		'/Twinning/script/main.js',
-		'/Twinning',
+		'/Libra/kernel',
+		'/Libra/script/main.js',
+		'/Libra',
 		{ private = true }
 	)
 end)

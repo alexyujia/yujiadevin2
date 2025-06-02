@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.bzip2;
+export module libra.kernel.third.bzip2;
 
-export namespace Twinning::Kernel::Third::bzip2 {
+export namespace Libra::Kernel::Third::bzip2 {
 
 	using $bz_stream = ::bz_stream;
 

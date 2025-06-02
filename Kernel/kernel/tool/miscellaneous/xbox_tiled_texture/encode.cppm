@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.miscellaneous.xbox_tiled_texture.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.miscellaneous.xbox_tiled_texture.common;
-import twinning.kernel.tool.texture.encoding.common;
-import twinning.kernel.tool.texture.encoding.encode;
+export module libra.kernel.tool.miscellaneous.xbox_tiled_texture.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.miscellaneous.xbox_tiled_texture.common;
+import libra.kernel.tool.texture.encoding.common;
+import libra.kernel.tool.texture.encoding.encode;
 
-export namespace Twinning::Kernel::Tool::Miscellaneous::XboxTiledTexture {
+export namespace Libra::Kernel::Tool::Miscellaneous::XboxTiledTexture {
 
 	struct Encode :
 		Common {

@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.encryption.rijndael.encrypt;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.encryption.rijndael.common;
-import twinning.kernel.third.Rijndael;
+export module libra.kernel.tool.data.encryption.rijndael.encrypt;
+import libra.kernel.utility;
+import libra.kernel.tool.data.encryption.rijndael.common;
+import libra.kernel.third.Rijndael;
 
-export namespace Twinning::Kernel::Tool::Data::Encryption::Rijndael {
+export namespace Libra::Kernel::Tool::Data::Encryption::Rijndael {
 
 	struct Encrypt :
 		Common {

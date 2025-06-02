@@ -2,12 +2,12 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.bridge.launcher;
-import twinning.shell.bridge.proxy;
-import twinning.shell.bridge.library;
-import twinning.shell.bridge.client;
+export module libra.shell.bridge.launcher;
+import libra.shell.bridge.proxy;
+import libra.shell.bridge.library;
+import libra.shell.bridge.client;
 
-export namespace Twinning::Shell::Bridge {
+export namespace Libra::Shell::Bridge {
 
 	#pragma region type
 

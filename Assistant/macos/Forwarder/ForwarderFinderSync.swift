@@ -13,7 +13,7 @@ class ForwarderFinderSync: FIFinderSync {
 
 	public override init(
 	) {
-		self.applicationName = "Twinning Assistant"
+		self.applicationName = "Libra Assistant"
 		self.applicationLogo = NSImage(named: "Logo")!
 		super.init()
 		FIFinderSyncController.default().directoryURLs = [URL(fileURLWithPath: "/")]
@@ -120,7 +120,7 @@ class ForwarderFinderSync: FIFinderSync {
 		var command: Array<String> = []
 		command.append("-forward")
 		command.append(contentsOf: try resource.map({ (item) in try self.parsePathOfFileURL(url: item) }))
-		let link = URL(string: "twinstar.twinning.assistant:/application?\(try command.map({ (item) in "command=\(try self.encodePercentString(source: item))" }).joined(separator: "&"))")!
+		let link = URL(string: "yujia.libra.assistant:/application?\(try command.map({ (item) in "command=\(try self.encodePercentString(source: item))" }).joined(separator: "&"))")!
 		try self.openLink(link: link)
 		return
 	}

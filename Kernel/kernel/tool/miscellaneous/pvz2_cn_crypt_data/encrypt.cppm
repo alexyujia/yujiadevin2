@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.miscellaneous.pvz2_cn_crypt_data.encrypt;
-import twinning.kernel.utility;
-import twinning.kernel.tool.miscellaneous.pvz2_cn_crypt_data.common;
-import twinning.kernel.tool.data.encryption.rijndael.common;
-import twinning.kernel.tool.data.encryption.rijndael.encrypt;
+export module libra.kernel.tool.miscellaneous.pvz2_cn_crypt_data.encrypt;
+import libra.kernel.utility;
+import libra.kernel.tool.miscellaneous.pvz2_cn_crypt_data.common;
+import libra.kernel.tool.data.encryption.rijndael.common;
+import libra.kernel.tool.data.encryption.rijndael.encrypt;
 
-export namespace Twinning::Kernel::Tool::Miscellaneous::PvZ2CNCryptData {
+export namespace Libra::Kernel::Tool::Miscellaneous::PvZ2CNCryptData {
 
 	struct Encrypt :
 		Common {

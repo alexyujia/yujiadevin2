@@ -2,9 +2,9 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.exception.source_location;
+export module libra.kernel.utility.exception.source_location;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region function
 

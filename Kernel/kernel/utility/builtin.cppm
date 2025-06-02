@@ -2,9 +2,9 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.builtin;
+export module libra.kernel.utility.builtin;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region void
 

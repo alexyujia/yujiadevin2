@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.re_animation.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.re_animation.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::ReAnimation {
+export namespace Libra::Kernel::Tool::PopCap::ReAnimation {
 
 	M_enumeration(
 		M_wrap(VersionPlatform),

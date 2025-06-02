@@ -2,20 +2,20 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.data.json.value;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.null;
-import twinning.kernel.utility.container.variant.enumerable_variant;
-import twinning.kernel.utility.container.list.list;
-import twinning.kernel.utility.container.map.map;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.miscellaneous.number_variant;
-import twinning.kernel.utility.data.json.value_adapter;
+export module libra.kernel.utility.data.json.value;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.null;
+import libra.kernel.utility.container.variant.enumerable_variant;
+import libra.kernel.utility.container.list.list;
+import libra.kernel.utility.container.map.map;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.miscellaneous.number_variant;
+import libra.kernel.utility.data.json.value_adapter;
 
-export namespace Twinning::Kernel::JSON {
+export namespace Libra::Kernel::JSON {
 
 	#pragma region declaration
 

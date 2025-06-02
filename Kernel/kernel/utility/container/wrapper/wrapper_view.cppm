@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.container.wrapper.wrapper_view;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
+export module libra.kernel.utility.container.wrapper.wrapper_view;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region type
 

@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.compression.etc.uncompress;
-import twinning.kernel.utility;
-import twinning.kernel.tool.texture.compression.etc.common;
-import twinning.kernel.third.etcpak;
+export module libra.kernel.tool.texture.compression.etc.uncompress;
+import libra.kernel.utility;
+import libra.kernel.tool.texture.compression.etc.common;
+import libra.kernel.third.etcpak;
 
-export namespace Twinning::Kernel::Tool::Texture::Compression::ETC {
+export namespace Libra::Kernel::Tool::Texture::Compression::ETC {
 
 	struct Uncompress :
 		Common {

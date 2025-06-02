@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.PvZ2.RegularResourceManifest.Convert {
+namespace Libra.Script.Support.PvZ2.RegularResourceManifest.Convert {
 
 	// ------------------------------------------------
 

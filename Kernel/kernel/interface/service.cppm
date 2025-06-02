@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.interface.service;
-import twinning.kernel.utility;
-import twinning.kernel.interface.data;
+export module libra.kernel.interface.service;
+import libra.kernel.utility;
+import libra.kernel.interface.data;
 
-export namespace Twinning::Kernel::Interface {
+export namespace Libra::Kernel::Interface {
 
 	#pragma region type
 

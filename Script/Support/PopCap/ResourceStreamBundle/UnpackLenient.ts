@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.PopCap.ResourceStreamBundle.UnpackLenient {
+namespace Libra.Script.Support.PopCap.ResourceStreamBundle.UnpackLenient {
 
 	// ------------------------------------------------
 

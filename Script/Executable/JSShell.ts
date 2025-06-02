@@ -1,5 +1,5 @@
 // 提供JS交互模式命令行
-namespace Twinning.Script.Executable.JSShell {
+namespace Libra.Script.Executable.JSShell {
 
 	export function execute(
 	): void {
@@ -31,4 +31,4 @@ namespace Twinning.Script.Executable.JSShell {
 
 }
 
-Twinning.Script.Executable.JSShell.execute();
+Libra.Script.Executable.JSShell.execute();

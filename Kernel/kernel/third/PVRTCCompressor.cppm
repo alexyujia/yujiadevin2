@@ -10,9 +10,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.PVRTCCompressor;
+export module libra.kernel.third.PVRTCCompressor;
 
-export namespace Twinning::Kernel::Third::PVRTCCompressor {
+export namespace Libra::Kernel::Third::PVRTCCompressor {
 
 	using ::Javelin::Point2;
 

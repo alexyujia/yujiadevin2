@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.text.json {
+namespace Libra.Script.Executor.Implement.text.json {
 
 	// ------------------------------------------------
 
@@ -88,4 +88,4 @@ namespace Twinning.Script.Executor.Implement.text.json {
 
 }
 
-Twinning.Script.Executor.Implement.text.json.injector;
+Libra.Script.Executor.Implement.text.json.injector;

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.encryption.rijndael.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.data.encryption.rijndael.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Data::Encryption::Rijndael {
+export namespace Libra::Kernel::Tool::Data::Encryption::Rijndael {
 
 	M_enumeration(
 		M_wrap(Mode),

@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.texture.atlas {
+namespace Libra.Script.Executor.Implement.texture.atlas {
 
 	// ------------------------------------------------
 
@@ -121,4 +121,4 @@ namespace Twinning.Script.Executor.Implement.texture.atlas {
 
 }
 
-Twinning.Script.Executor.Implement.texture.atlas.injector;
+Libra.Script.Executor.Implement.texture.atlas.injector;

@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.executor.context;
-import twinning.kernel.utility;
-import twinning.kernel.interface.proxy;
+export module libra.kernel.executor.context;
+import libra.kernel.utility;
+import libra.kernel.interface.proxy;
 
-export namespace Twinning::Kernel::Executor {
+export namespace Libra::Kernel::Executor {
 
 	#pragma region type
 

@@ -2,9 +2,9 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.utility.string;
+export module libra.shell.utility.string;
 
-export namespace Twinning::Shell {
+export namespace Libra::Shell {
 
 	#pragma region encoding
 

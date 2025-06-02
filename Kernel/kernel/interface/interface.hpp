@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Twinning::Kernel::Interface {
+namespace Libra::Kernel::Interface {
 
 	extern "C++" struct Service;
 

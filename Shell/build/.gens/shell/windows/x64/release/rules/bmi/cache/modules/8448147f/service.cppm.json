@@ -6,16 +6,16 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.bridge.service",
+          "logical-name": "libra.shell.bridge.service",
           "source-path": "shell\\bridge\\service.cppm"
         }
       ],
       "requires": [
         {
-          "logical-name": "twinning.common.std"
+          "logical-name": "libra.common.std"
         },
         {
-          "logical-name": "twinning.shell.bridge.data"
+          "logical-name": "libra.shell.bridge.data"
         }
       ]
     }

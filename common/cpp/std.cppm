@@ -44,7 +44,7 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.common.std;
+export module libra.common.std;
 
 export {
 	// operator

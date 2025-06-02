@@ -2,16 +2,16 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.sexy_texture.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.sexy_texture.version;
-import twinning.kernel.tool.popcap.sexy_texture.common;
-import twinning.kernel.tool.data.compression.deflate.common;
-import twinning.kernel.tool.data.compression.deflate.compress;
-import twinning.kernel.tool.texture.encoding.common;
-import twinning.kernel.tool.texture.encoding.encode;
+export module libra.kernel.tool.popcap.sexy_texture.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.sexy_texture.version;
+import libra.kernel.tool.popcap.sexy_texture.common;
+import libra.kernel.tool.data.compression.deflate.common;
+import libra.kernel.tool.data.compression.deflate.compress;
+import libra.kernel.tool.texture.encoding.common;
+import libra.kernel.tool.texture.encoding.encode;
 
-export namespace Twinning::Kernel::Tool::PopCap::SexyTexture {
+export namespace Libra::Kernel::Tool::PopCap::SexyTexture {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Encode :

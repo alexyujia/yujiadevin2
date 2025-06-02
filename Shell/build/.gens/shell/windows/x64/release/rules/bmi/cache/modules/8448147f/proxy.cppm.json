@@ -6,19 +6,19 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.bridge.proxy",
+          "logical-name": "libra.shell.bridge.proxy",
           "source-path": "shell\\bridge\\proxy.cppm"
         }
       ],
       "requires": [
         {
-          "logical-name": "twinning.common.std"
+          "logical-name": "libra.common.std"
         },
         {
-          "logical-name": "twinning.shell.utility.exception"
+          "logical-name": "libra.shell.utility.exception"
         },
         {
-          "logical-name": "twinning.shell.bridge.data"
+          "logical-name": "libra.shell.bridge.data"
         }
       ]
     }

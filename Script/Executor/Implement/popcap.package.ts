@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.package_ {
+namespace Libra.Script.Executor.Implement.popcap.package_ {
 
 	// ------------------------------------------------
 
@@ -236,4 +236,4 @@ namespace Twinning.Script.Executor.Implement.popcap.package_ {
 
 }
 
-Twinning.Script.Executor.Implement.popcap.package_.injector;
+Libra.Script.Executor.Implement.popcap.package_.injector;

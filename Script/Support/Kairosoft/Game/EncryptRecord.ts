@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.Kairosoft.Game.EncryptRecord {
+namespace Libra.Script.Support.Kairosoft.Game.EncryptRecord {
 
 	// ------------------------------------------------
 

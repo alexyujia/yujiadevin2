@@ -6,7 +6,7 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.third.system.posix",
+          "logical-name": "libra.shell.third.system.posix",
           "source-path": "shell\\third\\system\\posix.cppm"
         }
       ]

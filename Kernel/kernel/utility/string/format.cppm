@@ -2,18 +2,18 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.string.format;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.string.basic_string_view;
-import twinning.kernel.utility.string.basic_string;
-import twinning.kernel.utility.string.basic_static_string;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.third.fmt;
+export module libra.kernel.utility.string.format;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.string.basic_string_view;
+import libra.kernel.utility.string.basic_string;
+import libra.kernel.utility.string.basic_static_string;
+import libra.kernel.utility.string.string;
+import libra.kernel.third.fmt;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region function
 

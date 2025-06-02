@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.Marmalade.DZip.PackAutomatic {
+namespace Libra.Script.Support.Marmalade.DZip.PackAutomatic {
 
 	// ------------------------------------------------
 

@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.character_font_widget_2.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.character_font_widget_2.version;
-import twinning.kernel.tool.popcap.character_font_widget_2.definition;
-import twinning.kernel.tool.popcap.character_font_widget_2.common;
-import twinning.kernel.tool.common.byte_stream;
+export module libra.kernel.tool.popcap.character_font_widget_2.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.character_font_widget_2.version;
+import libra.kernel.tool.popcap.character_font_widget_2.definition;
+import libra.kernel.tool.popcap.character_font_widget_2.common;
+import libra.kernel.tool.common.byte_stream;
 
-export namespace Twinning::Kernel::Tool::PopCap::CharacterFontWidget2 {
+export namespace Libra::Kernel::Tool::PopCap::CharacterFontWidget2 {
 
 	template <auto version> requires (check_version(version))
 	struct Encode :

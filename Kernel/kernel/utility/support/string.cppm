@@ -2,26 +2,26 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.support.string;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.string.basic_string;
-import twinning.kernel.utility.string.parser;
-import twinning.kernel.utility.string.basic_string_adapter;
-import twinning.kernel.utility.miscellaneous.byte_series.container;
-import twinning.kernel.utility.miscellaneous.byte_series.stream;
-import twinning.kernel.utility.miscellaneous.character_series.container;
-import twinning.kernel.utility.miscellaneous.character_series.stream;
-import twinning.kernel.utility.storage.path;
-import twinning.kernel.utility.miscellaneous.fourcc;
-import twinning.kernel.utility.miscellaneous.number_variant;
-import twinning.kernel.utility.support.character_stream.extend;
-import twinning.kernel.utility.null;
+export module libra.kernel.utility.support.string;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.string.basic_string;
+import libra.kernel.utility.string.parser;
+import libra.kernel.utility.string.basic_string_adapter;
+import libra.kernel.utility.miscellaneous.byte_series.container;
+import libra.kernel.utility.miscellaneous.byte_series.stream;
+import libra.kernel.utility.miscellaneous.character_series.container;
+import libra.kernel.utility.miscellaneous.character_series.stream;
+import libra.kernel.utility.storage.path;
+import libra.kernel.utility.miscellaneous.fourcc;
+import libra.kernel.utility.miscellaneous.number_variant;
+import libra.kernel.utility.support.character_stream.extend;
+import libra.kernel.utility.null;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region string
 

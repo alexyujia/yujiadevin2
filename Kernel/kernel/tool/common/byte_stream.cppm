@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.common.byte_stream;
-import twinning.kernel.utility;
+export module libra.kernel.tool.common.byte_stream;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool {
+export namespace Libra::Kernel::Tool {
 
 	#pragma region exchange
 

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.character_font_widget_2.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.character_font_widget_2.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::CharacterFontWidget2 {
+export namespace Libra::Kernel::Tool::PopCap::CharacterFontWidget2 {
 
 	M_record_of_map(
 		M_wrap(Version),

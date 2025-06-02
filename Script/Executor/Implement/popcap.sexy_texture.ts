@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.sexy_texture {
+namespace Libra.Script.Executor.Implement.popcap.sexy_texture {
 
 	// ------------------------------------------------
 
@@ -134,4 +134,4 @@ namespace Twinning.Script.Executor.Implement.popcap.sexy_texture {
 
 }
 
-Twinning.Script.Executor.Implement.popcap.sexy_texture.injector;
+Libra.Script.Executor.Implement.popcap.sexy_texture.injector;

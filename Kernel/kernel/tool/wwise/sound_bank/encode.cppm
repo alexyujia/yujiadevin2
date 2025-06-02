@@ -2,15 +2,15 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.wwise.sound_bank.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.wwise.sound_bank.version;
-import twinning.kernel.tool.wwise.sound_bank.definition;
-import twinning.kernel.tool.wwise.sound_bank.common;
-import twinning.kernel.tool.common.byte_stream;
-import twinning.kernel.tool.common.wave_structure;
+export module libra.kernel.tool.wwise.sound_bank.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.wwise.sound_bank.version;
+import libra.kernel.tool.wwise.sound_bank.definition;
+import libra.kernel.tool.wwise.sound_bank.common;
+import libra.kernel.tool.common.byte_stream;
+import libra.kernel.tool.common.wave_structure;
 
-export namespace Twinning::Kernel::Tool::Wwise::SoundBank {
+export namespace Libra::Kernel::Tool::Wwise::SoundBank {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Encode :

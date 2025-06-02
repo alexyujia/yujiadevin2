@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.libpng;
+export module libra.kernel.third.libpng;
 
-export namespace Twinning::Kernel::Third::libpng {
+export namespace Libra::Kernel::Third::libpng {
 
 	using $size_t = ::size_t;
 

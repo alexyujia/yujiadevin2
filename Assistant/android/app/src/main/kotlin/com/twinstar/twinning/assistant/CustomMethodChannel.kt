@@ -1,4 +1,4 @@
-package com.twinstar.twinning.assistant
+package com.yujia.libra.assistant
 
 import android.Manifest
 import android.content.ContentResolver
@@ -54,7 +54,7 @@ class CustomMethodChannel {
 	): Unit {
 		MethodChannel(
 			flutterEngine.dartExecutor.binaryMessenger,
-			"com.twinstar.twinning.assistant.CustomMethodChannel",
+			"com.yujia.libra.assistant.CustomMethodChannel",
 		).setMethodCallHandler { call, result ->
 			CoroutineScope(Dispatchers.Main).launch { this@CustomMethodChannel.handle(call, result) }
 			return@setMethodCallHandler

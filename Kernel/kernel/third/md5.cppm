@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.md5;
+export module libra.kernel.third.md5;
 
-export namespace Twinning::Kernel::Third::md5 {
+export namespace Libra::Kernel::Third::md5 {
 
 	using ::byte;
 

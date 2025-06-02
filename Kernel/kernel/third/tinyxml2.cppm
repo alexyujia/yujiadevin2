@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.tinyxml2;
+export module libra.kernel.third.tinyxml2;
 
-export namespace Twinning::Kernel::Third::tinyxml2 {
+export namespace Libra::Kernel::Third::tinyxml2 {
 
 	using ::tinyxml2::XMLNode;
 

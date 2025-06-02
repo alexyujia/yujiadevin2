@@ -19,11 +19,11 @@ extern "C" char * * environ; // NOTE : EXPLAIN - not declared in unistd.h of xco
 
 #endif
 
-export module twinning.kernel.third.system.posix;
+export module libra.kernel.third.system.posix;
 
 #if defined M_system_linux || defined M_system_macintosh || defined M_system_android || defined M_system_iphone
 
-export namespace Twinning::Kernel::Third::system::posix {
+export namespace Libra::Kernel::Third::system::posix {
 
 	using $id_t = ::id_t;
 

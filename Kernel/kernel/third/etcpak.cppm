@@ -14,9 +14,9 @@ extern "C++" void DecodeRGBAPart (uint64_t d, uint64_t alpha, uint32_t * dst, ui
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.etcpak;
+export module libra.kernel.third.etcpak;
 
-export namespace Twinning::Kernel::Third::etcpak {
+export namespace Libra::Kernel::Third::etcpak {
 
 	using ::CompressEtc1Rgb;
 

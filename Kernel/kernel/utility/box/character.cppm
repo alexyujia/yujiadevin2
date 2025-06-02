@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.box.character;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box.base;
-import twinning.kernel.utility.box.number;
+export module libra.kernel.utility.box.character;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box.base;
+import libra.kernel.utility.box.number;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region type
 

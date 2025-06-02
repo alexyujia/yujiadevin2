@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.Rijndael;
+export module libra.kernel.third.Rijndael;
 
-export namespace Twinning::Kernel::Third::Rijndael {
+export namespace Libra::Kernel::Third::Rijndael {
 
 	using ::CRijndael;
 

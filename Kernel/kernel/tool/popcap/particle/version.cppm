@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.particle.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.particle.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::Particle {
+export namespace Libra::Kernel::Tool::PopCap::Particle {
 
 	M_enumeration(
 		M_wrap(VersionPlatform),

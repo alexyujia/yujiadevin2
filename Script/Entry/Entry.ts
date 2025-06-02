@@ -1,4 +1,4 @@
-namespace Twinning.Script.Entry {
+namespace Libra.Script.Entry {
 
 	// ------------------------------------------------
 
@@ -201,4 +201,4 @@ namespace Twinning.Script.Entry {
 
 }
 
-Twinning.Script.Entry.injector;
+Libra.Script.Entry.injector;

@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.particle {
+namespace Libra.Script.Executor.Implement.popcap.particle {
 
 	// ------------------------------------------------
 
@@ -145,4 +145,4 @@ namespace Twinning.Script.Executor.Implement.popcap.particle {
 
 }
 
-Twinning.Script.Executor.Implement.popcap.particle.injector;
+Libra.Script.Executor.Implement.popcap.particle.injector;

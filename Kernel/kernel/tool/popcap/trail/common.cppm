@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.trail.common;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.trail.version;
-import twinning.kernel.tool.popcap.trail.definition;
+export module libra.kernel.tool.popcap.trail.common;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.trail.version;
+import libra.kernel.tool.popcap.trail.definition;
 
-export namespace Twinning::Kernel::Tool::PopCap::Trail {
+export namespace Libra::Kernel::Tool::PopCap::Trail {
 
 	template <auto version> requires (check_version(version, {}, {}))
 	struct Common {

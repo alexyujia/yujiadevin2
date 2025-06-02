@@ -13,7 +13,7 @@ typedef IconSymbols = Symbols;
 
 // ----------------
 
-const String kApplicationName = 'Twinning Assistant';
+const String kApplicationName = 'Libra Toolkit';
 
 const String kApplicationVersion = '69';
 

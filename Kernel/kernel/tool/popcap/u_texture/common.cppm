@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.u_texture.common;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.u_texture.version;
+export module libra.kernel.tool.popcap.u_texture.common;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.u_texture.version;
 
-export namespace Twinning::Kernel::Tool::PopCap::UTexture {
+export namespace Libra::Kernel::Tool::PopCap::UTexture {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Common {

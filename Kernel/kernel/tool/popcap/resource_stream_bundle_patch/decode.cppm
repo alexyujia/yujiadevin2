@@ -2,18 +2,18 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.resource_stream_bundle_patch.decode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.resource_stream_bundle_patch.version;
-import twinning.kernel.tool.popcap.resource_stream_bundle_patch.common;
-import twinning.kernel.tool.popcap.resource_stream_bundle.structure;
-import twinning.kernel.tool.data.hash.md5.common;
-import twinning.kernel.tool.data.hash.md5.hash;
-import twinning.kernel.tool.data.differentiation.vcdiff.common;
-import twinning.kernel.tool.data.differentiation.vcdiff.encode;
-import twinning.kernel.tool.data.differentiation.vcdiff.decode;
+export module libra.kernel.tool.popcap.resource_stream_bundle_patch.decode;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.resource_stream_bundle_patch.version;
+import libra.kernel.tool.popcap.resource_stream_bundle_patch.common;
+import libra.kernel.tool.popcap.resource_stream_bundle.structure;
+import libra.kernel.tool.data.hash.md5.common;
+import libra.kernel.tool.data.hash.md5.hash;
+import libra.kernel.tool.data.differentiation.vcdiff.common;
+import libra.kernel.tool.data.differentiation.vcdiff.encode;
+import libra.kernel.tool.data.differentiation.vcdiff.decode;
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundlePatch {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundlePatch {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Decode :

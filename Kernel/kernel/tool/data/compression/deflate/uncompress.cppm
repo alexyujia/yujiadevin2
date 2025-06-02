@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.compression.deflate.uncompress;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.compression.deflate.common;
-import twinning.kernel.third.zlib;
+export module libra.kernel.tool.data.compression.deflate.uncompress;
+import libra.kernel.utility;
+import libra.kernel.tool.data.compression.deflate.common;
+import libra.kernel.third.zlib;
 
-export namespace Twinning::Kernel::Tool::Data::Compression::Deflate {
+export namespace Libra::Kernel::Tool::Data::Compression::Deflate {
 
 	struct Uncompress :
 		Common {

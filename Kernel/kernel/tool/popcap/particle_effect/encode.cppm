@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.particle_effect.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.particle_effect.version;
-import twinning.kernel.tool.popcap.particle_effect.definition;
-import twinning.kernel.tool.popcap.particle_effect.common;
-import twinning.kernel.tool.common.byte_stream;
+export module libra.kernel.tool.popcap.particle_effect.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.particle_effect.version;
+import libra.kernel.tool.popcap.particle_effect.definition;
+import libra.kernel.tool.popcap.particle_effect.common;
+import libra.kernel.tool.common.byte_stream;
 
-export namespace Twinning::Kernel::Tool::PopCap::ParticleEffect {
+export namespace Libra::Kernel::Tool::PopCap::ParticleEffect {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Encode :

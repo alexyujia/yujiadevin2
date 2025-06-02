@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.sexy_texture.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.sexy_texture.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::SexyTexture {
+export namespace Libra::Kernel::Tool::PopCap::SexyTexture {
 
 	M_record_of_map(
 		M_wrap(Version),

@@ -1,4 +1,4 @@
-package com.twinstar.twinning.assistant
+package com.yujia.libra.assistant
 
 import android.content.Intent
 import io.flutter.embedding.android.FlutterActivity

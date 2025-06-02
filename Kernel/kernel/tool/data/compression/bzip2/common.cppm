@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.compression.bzip2.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.data.compression.bzip2.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Data::Compression::BZip2 {
+export namespace Libra::Kernel::Tool::Data::Compression::BZip2 {
 
 	struct Common {
 

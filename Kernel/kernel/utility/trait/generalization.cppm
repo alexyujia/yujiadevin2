@@ -2,16 +2,16 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.trait.generalization;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait.base;
-import twinning.kernel.utility.trait.category;
-import twinning.kernel.utility.trait.callable;
-import twinning.kernel.utility.trait.package.type_package;
-import twinning.kernel.utility.trait.package.value_package;
-import twinning.kernel.utility.exception.utility;
+export module libra.kernel.utility.trait.generalization;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait.base;
+import libra.kernel.utility.trait.category;
+import libra.kernel.utility.trait.callable;
+import libra.kernel.utility.trait.package.type_package;
+import libra.kernel.utility.trait.package.value_package;
+import libra.kernel.utility.exception.utility;
 
-export namespace Twinning::Kernel::Trait::Generalization {
+export namespace Libra::Kernel::Trait::Generalization {
 
 	#pragma region utility
 

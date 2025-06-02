@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.package.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.package.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::Package {
+export namespace Libra::Kernel::Tool::PopCap::Package {
 
 	M_record_of_map(
 		M_wrap(Version),

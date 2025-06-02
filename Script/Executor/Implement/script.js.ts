@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.script.js {
+namespace Libra.Script.Executor.Implement.script.js {
 
 	// ------------------------------------------------
 
@@ -54,4 +54,4 @@ namespace Twinning.Script.Executor.Implement.script.js {
 
 }
 
-Twinning.Script.Executor.Implement.script.js.injector;
+Libra.Script.Executor.Implement.script.js.injector;
