@@ -4,10 +4,10 @@ module;
 
 // TODO : refactor
 
-export module twinning.kernel.tool.popcap.resource_stream_bundle.shared;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.resource_stream_bundle.shared;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundle::Shared {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundle::Shared {
 
 	#pragma region padding unit
 
@@ -275,12 +275,12 @@ export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundle::Shared {
 
 // NOTE : USING
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamGroup {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamGroup {
 	using namespace ResourceStreamBundle::Shared;
 }
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundle {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundle {
 	using namespace ResourceStreamBundle::Shared;
 }
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundlePatch {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundlePatch {
 	using namespace ResourceStreamBundle::Shared;
 }

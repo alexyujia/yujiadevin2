@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.miscellaneous.math;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
+export module libra.kernel.utility.miscellaneous.math;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
 
-export namespace Twinning::Kernel::Math {
+export namespace Libra::Kernel::Math {
 
 	#pragma region check
 

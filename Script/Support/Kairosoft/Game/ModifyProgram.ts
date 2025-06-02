@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.Kairosoft.Game.ModifyProgram {
+namespace Libra.Script.Support.Kairosoft.Game.ModifyProgram {
 
 	// ------------------------------------------------
 

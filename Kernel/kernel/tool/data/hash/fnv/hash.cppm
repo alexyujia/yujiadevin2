@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.hash.fnv.hash;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.hash.fnv.common;
+export module libra.kernel.tool.data.hash.fnv.hash;
+import libra.kernel.utility;
+import libra.kernel.tool.data.hash.fnv.common;
 
-export namespace Twinning::Kernel::Tool::Data::Hash::FNV {
+export namespace Libra::Kernel::Tool::Data::Hash::FNV {
 
 	struct Hash :
 		Common {

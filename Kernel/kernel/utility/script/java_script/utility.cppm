@@ -2,26 +2,26 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.script.java_script.utility;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.script.java_script.value;
-import twinning.kernel.utility.null;
-import twinning.kernel.utility.miscellaneous.allocation;
-import twinning.kernel.utility.miscellaneous.finalizer;
-import twinning.kernel.utility.container.variant.variant;
-import twinning.kernel.utility.container.list.list;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.string.format;
-import twinning.kernel.utility.container.optional.optional;
-import twinning.kernel.utility.support.fmt;
-import twinning.kernel.utility.thread.mutex;
-import twinning.kernel.utility.thread.unlocker;
-import twinning.kernel.third.quickjs_ng;
+export module libra.kernel.utility.script.java_script.utility;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.script.java_script.value;
+import libra.kernel.utility.null;
+import libra.kernel.utility.miscellaneous.allocation;
+import libra.kernel.utility.miscellaneous.finalizer;
+import libra.kernel.utility.container.variant.variant;
+import libra.kernel.utility.container.list.list;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.string.format;
+import libra.kernel.utility.container.optional.optional;
+import libra.kernel.utility.support.fmt;
+import libra.kernel.utility.thread.mutex;
+import libra.kernel.utility.thread.unlocker;
+import libra.kernel.third.quickjs_ng;
 
-export namespace Twinning::Kernel::JavaScript {
+export namespace Libra::Kernel::JavaScript {
 
 	#pragma region global mutex
 

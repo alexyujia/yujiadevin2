@@ -2,10 +2,10 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.utility.miscellaneous;
-import twinning.shell.utility.string;
+export module libra.shell.utility.miscellaneous;
+import libra.shell.utility.string;
 
-export namespace Twinning::Shell {
+export namespace Libra::Shell {
 
 	#pragma region native main function
 

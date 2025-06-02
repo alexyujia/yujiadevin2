@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.re_animation.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.re_animation.version;
-import twinning.kernel.tool.popcap.re_animation.definition;
-import twinning.kernel.tool.popcap.re_animation.common;
-import twinning.kernel.tool.common.byte_stream;
+export module libra.kernel.tool.popcap.re_animation.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.re_animation.version;
+import libra.kernel.tool.popcap.re_animation.definition;
+import libra.kernel.tool.popcap.re_animation.common;
+import libra.kernel.tool.common.byte_stream;
 
-export namespace Twinning::Kernel::Tool::PopCap::ReAnimation {
+export namespace Libra::Kernel::Tool::PopCap::ReAnimation {
 
 	template <auto version> requires (check_version(version, {}, {}))
 	struct Encode :

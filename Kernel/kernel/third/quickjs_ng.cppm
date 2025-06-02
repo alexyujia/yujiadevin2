@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.quickjs_ng;
+export module libra.kernel.third.quickjs_ng;
 
-export namespace Twinning::Kernel::Third::quickjs_ng {
+export namespace Libra::Kernel::Third::quickjs_ng {
 
 	using $JSRuntime = ::JSRuntime;
 

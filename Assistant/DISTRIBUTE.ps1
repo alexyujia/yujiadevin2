@@ -31,7 +31,7 @@ if ($TargetPlatform -eq "macintosh.x86_64+arm_64") {
 		Remove-Item -Force -Recurse -Path $ModuleDistributionFile
 	}
 	flutter "build" "macos" "--release" "--no-tree-shake-icons"
-	My-PackDmg -Name "Twinning Assistant" -Source "${ModuleDirectory}/build/macos/Build/Products/Release/Runner.app" -Destination "${ModuleDistributionFile}"
+	My-PackDmg -Name "Libra Assistant" -Source "${ModuleDirectory}/build/macos/Build/Products/Release/Runner.app" -Destination "${ModuleDistributionFile}"
 }
 if ($TargetPlatform -eq "android.arm_64") {
 	$ModuleDistributionFile += ".apk"
@@ -47,7 +47,7 @@ if ($TargetPlatform -eq "iphone.arm_64") {
 		Remove-Item -Force -Recurse -Path $ModuleDistributionFile
 	}
 	flutter "build" "ios" "--release" "--no-tree-shake-icons"
-	My-PackIpa -Name "Twinning Assistant" -Source "${ModuleDirectory}/build/ios/iphoneos/Runner.app" -Destination "${ModuleDistributionFile}"
+	My-PackIpa -Name "Libra Assistant" -Source "${ModuleDirectory}/build/ios/iphoneos/Runner.app" -Destination "${ModuleDistributionFile}"
 }
 Pop-Location
 Write-Host -Object "!! DONE >> ${ModuleDistributionFile}"

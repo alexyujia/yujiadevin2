@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.transformation.scale;
-import twinning.kernel.utility;
-import twinning.kernel.tool.texture.transformation.common;
-import twinning.kernel.third.avir;
+export module libra.kernel.tool.texture.transformation.scale;
+import libra.kernel.utility;
+import libra.kernel.tool.texture.transformation.common;
+import libra.kernel.third.avir;
 
-export namespace Twinning::Kernel::Tool::Texture::Transformation {
+export namespace Libra::Kernel::Tool::Texture::Transformation {
 
 	struct Scale :
 		Common {

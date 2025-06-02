@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.fmt;
+export module libra.kernel.third.fmt;
 
-export namespace Twinning::Kernel::Third::fmt {
+export namespace Libra::Kernel::Third::fmt {
 
 	using ::fmt::formatter;
 

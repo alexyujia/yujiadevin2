@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.compression.pvrtc.compress;
-import twinning.kernel.utility;
-import twinning.kernel.tool.texture.compression.pvrtc.common;
-import twinning.kernel.third.PVRTCCompressor;
+export module libra.kernel.tool.texture.compression.pvrtc.compress;
+import libra.kernel.utility;
+import libra.kernel.tool.texture.compression.pvrtc.common;
+import libra.kernel.third.PVRTCCompressor;
 
-export namespace Twinning::Kernel::Tool::Texture::Compression::PVRTC {
+export namespace Libra::Kernel::Tool::Texture::Compression::PVRTC {
 
 	struct Compress :
 		Common {

@@ -1,6 +1,6 @@
 -- kernel
 
-target('kernel', function()
+target('yujia', function()
 	set_group('source')
 	set_kind('shared')
 	add_headerfiles(

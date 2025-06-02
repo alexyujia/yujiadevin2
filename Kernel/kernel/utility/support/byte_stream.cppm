@@ -2,33 +2,33 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.support.byte_stream;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.null;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.container.list.list;
-import twinning.kernel.utility.container.list.list_view;
-import twinning.kernel.utility.container.array.array;
-import twinning.kernel.utility.container.static_array.static_array;
-import twinning.kernel.utility.miscellaneous.byte_series.container;
-import twinning.kernel.utility.miscellaneous.byte_series.stream;
-import twinning.kernel.utility.miscellaneous.byte_series.stream_adapter;
-import twinning.kernel.utility.miscellaneous.byte_series.utility;
-import twinning.kernel.utility.miscellaneous.character_series.container;
-import twinning.kernel.utility.miscellaneous.character_series.stream;
-import twinning.kernel.utility.miscellaneous.character_series.type;
-import twinning.kernel.utility.miscellaneous.record;
-import twinning.kernel.utility.miscellaneous.fourcc;
-import twinning.kernel.utility.miscellaneous.constant_block;
-import twinning.kernel.utility.miscellaneous.string_block;
-import twinning.kernel.utility.string.basic_string;
-import twinning.kernel.utility.string.basic_string_view;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.string.parser;
+export module libra.kernel.utility.support.byte_stream;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.null;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.container.list.list;
+import libra.kernel.utility.container.list.list_view;
+import libra.kernel.utility.container.array.array;
+import libra.kernel.utility.container.static_array.static_array;
+import libra.kernel.utility.miscellaneous.byte_series.container;
+import libra.kernel.utility.miscellaneous.byte_series.stream;
+import libra.kernel.utility.miscellaneous.byte_series.stream_adapter;
+import libra.kernel.utility.miscellaneous.byte_series.utility;
+import libra.kernel.utility.miscellaneous.character_series.container;
+import libra.kernel.utility.miscellaneous.character_series.stream;
+import libra.kernel.utility.miscellaneous.character_series.type;
+import libra.kernel.utility.miscellaneous.record;
+import libra.kernel.utility.miscellaneous.fourcc;
+import libra.kernel.utility.miscellaneous.constant_block;
+import libra.kernel.utility.miscellaneous.string_block;
+import libra.kernel.utility.string.basic_string;
+import libra.kernel.utility.string.basic_string_view;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.string.parser;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region basic
 

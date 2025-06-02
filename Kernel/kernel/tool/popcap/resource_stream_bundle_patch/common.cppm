@@ -2,19 +2,19 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.resource_stream_bundle_patch.common;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.resource_stream_bundle_patch.version;
-import twinning.kernel.tool.popcap.resource_stream_group.version;
-import twinning.kernel.tool.popcap.resource_stream_group.structure;
-import twinning.kernel.tool.popcap.resource_stream_bundle.version;
-import twinning.kernel.tool.popcap.resource_stream_bundle.structure;
-import twinning.kernel.tool.popcap.resource_stream_bundle.shared;
-import twinning.kernel.tool.data.compression.deflate.common;
-import twinning.kernel.tool.data.compression.deflate.compress;
-import twinning.kernel.tool.data.compression.deflate.uncompress;
+export module libra.kernel.tool.popcap.resource_stream_bundle_patch.common;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.resource_stream_bundle_patch.version;
+import libra.kernel.tool.popcap.resource_stream_group.version;
+import libra.kernel.tool.popcap.resource_stream_group.structure;
+import libra.kernel.tool.popcap.resource_stream_bundle.version;
+import libra.kernel.tool.popcap.resource_stream_bundle.structure;
+import libra.kernel.tool.popcap.resource_stream_bundle.shared;
+import libra.kernel.tool.data.compression.deflate.common;
+import libra.kernel.tool.data.compression.deflate.compress;
+import libra.kernel.tool.data.compression.deflate.uncompress;
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundlePatch {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundlePatch {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Common {

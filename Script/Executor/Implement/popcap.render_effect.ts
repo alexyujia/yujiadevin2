@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.render_effect {
+namespace Libra.Script.Executor.Implement.popcap.render_effect {
 
 	// ------------------------------------------------
 
@@ -147,4 +147,4 @@ namespace Twinning.Script.Executor.Implement.popcap.render_effect {
 
 }
 
-Twinning.Script.Executor.Implement.popcap.render_effect.injector;
+Libra.Script.Executor.Implement.popcap.render_effect.injector;

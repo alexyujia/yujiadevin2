@@ -13,11 +13,11 @@ module;
 
 #endif
 
-export module twinning.kernel.third.system.windows;
+export module libra.kernel.third.system.windows;
 
 #if defined M_system_windows
 
-export namespace Twinning::Kernel::Third::system::windows {
+export namespace Libra::Kernel::Third::system::windows {
 
 	using $BOOL = ::BOOL;
 

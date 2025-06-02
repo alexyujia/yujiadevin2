@@ -27,7 +27,7 @@ class CustomMethodChannel: NSObject, UIDocumentPickerDelegate {
   ) -> Void {
     let rootView = self.host.window?.rootViewController as! FlutterViewController
     FlutterMethodChannel(
-      name: "com.twinstar.twinning.assistant.CustomMethodChannel",
+      name: "com.yujia.libra.assistant.CustomMethodChannel",
       binaryMessenger: rootView.binaryMessenger
     ).setMethodCallHandler({ [weak self] (call, result) in
       Task {

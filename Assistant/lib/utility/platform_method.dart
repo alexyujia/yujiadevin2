@@ -10,7 +10,7 @@ class PlatformMethod {
 
   static final MethodChannel? _channel = () {
     if (Platform.isAndroid || Platform.isIOS) {
-      return const MethodChannel('com.twinstar.twinning.assistant.CustomMethodChannel');
+      return const MethodChannel('com.yujia.libra.assistant.CustomMethodChannel');
     }
     return null;
   }();

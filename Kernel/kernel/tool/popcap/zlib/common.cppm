@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.zlib.common;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.zlib.version;
+export module libra.kernel.tool.popcap.zlib.common;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.zlib.version;
 
-export namespace Twinning::Kernel::Tool::PopCap::ZLib {
+export namespace Libra::Kernel::Tool::PopCap::ZLib {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Common {

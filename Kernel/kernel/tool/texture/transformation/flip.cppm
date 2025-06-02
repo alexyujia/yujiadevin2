@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.transformation.flip;
-import twinning.kernel.utility;
-import twinning.kernel.tool.texture.transformation.common;
+export module libra.kernel.tool.texture.transformation.flip;
+import libra.kernel.utility;
+import libra.kernel.tool.texture.transformation.common;
 
-export namespace Twinning::Kernel::Tool::Texture::Transformation {
+export namespace Libra::Kernel::Tool::Texture::Transformation {
 
 	struct Flip :
 		Common {

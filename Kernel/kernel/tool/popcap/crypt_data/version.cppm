@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.crypt_data.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.crypt_data.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::CryptData {
+export namespace Libra::Kernel::Tool::PopCap::CryptData {
 
 	M_record_of_map(
 		M_wrap(Version),

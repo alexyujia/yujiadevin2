@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.PopCap.Texture.Encoding {
+namespace Libra.Script.Support.PopCap.Texture.Encoding {
 
 	// ------------------------------------------------
 

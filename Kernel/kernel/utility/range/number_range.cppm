@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.range.number_range;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.range.number_iterator;
+export module libra.kernel.utility.range.number_range;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.range.number_iterator;
 
-export namespace Twinning::Kernel::Range {
+export namespace Libra::Kernel::Range {
 
 	#pragma region type
 
@@ -118,6 +118,6 @@ export namespace Twinning::Kernel::Range {
 
 // NOTE : USING
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 	using Range::SizeRange;
 }

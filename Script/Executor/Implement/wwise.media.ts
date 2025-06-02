@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.wwise.media {
+namespace Libra.Script.Executor.Implement.wwise.media {
 
 	// ------------------------------------------------
 
@@ -114,4 +114,4 @@ namespace Twinning.Script.Executor.Implement.wwise.media {
 
 }
 
-Twinning.Script.Executor.Implement.wwise.media.injector;
+Libra.Script.Executor.Implement.wwise.media.injector;

@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.compression.lzma.uncompress;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.compression.lzma.common;
-import twinning.kernel.third.lzma;
+export module libra.kernel.tool.data.compression.lzma.uncompress;
+import libra.kernel.utility;
+import libra.kernel.tool.data.compression.lzma.common;
+import libra.kernel.third.lzma;
 
-export namespace Twinning::Kernel::Tool::Data::Compression::Lzma {
+export namespace Libra::Kernel::Tool::Data::Compression::Lzma {
 
 	struct Uncompress :
 		Common {

@@ -1,4 +1,4 @@
-namespace Twinning.Script {
+namespace Libra.Script {
 
 	// ------------------------------------------------
 
@@ -298,7 +298,7 @@ namespace Twinning.Script {
 		async function internal(
 			argument: Array<string>,
 		): Promise<Array<string>> {
-			Detail.output(`Twinning ~ Kernel:${Kernel.Miscellaneous.g_version.value} & Shell:${Kernel.Miscellaneous.g_context.callback(Kernel.StringList.value(['name'])).value[0]}:${Kernel.Miscellaneous.g_context.callback(Kernel.StringList.value(['version'])).value[0]} & Script:${k_version} ~ ${Kernel.Miscellaneous.g_system.value}:${Kernel.Miscellaneous.g_architecture.value}`, argument);
+			Detail.output(`Libra ~ Kernel:${Kernel.Miscellaneous.g_version.value} & Shell:${Kernel.Miscellaneous.g_context.callback(Kernel.StringList.value(['name'])).value[0]}:${Kernel.Miscellaneous.g_context.callback(Kernel.StringList.value(['version'])).value[0]} & Script:${k_version} ~ ${Kernel.Miscellaneous.g_system.value}:${Kernel.Miscellaneous.g_architecture.value}`, argument);
 			assert_test(argument.length >= 1, `argument too few`);
 			// 获取主目录
 			let home_path = argument[0].replaceAll(`\\`, '/');
@@ -358,4 +358,4 @@ namespace Twinning.Script {
 
 }
 
-Twinning.Script.Main.external;
+Libra.Script.Main.external;

@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.animation {
+namespace Libra.Script.Executor.Implement.popcap.animation {
 
 	// ------------------------------------------------
 
@@ -312,4 +312,4 @@ namespace Twinning.Script.Executor.Implement.popcap.animation {
 
 }
 
-Twinning.Script.Executor.Implement.popcap.animation.injector;
+Libra.Script.Executor.Implement.popcap.animation.injector;

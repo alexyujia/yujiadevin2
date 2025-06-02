@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.mscharconv;
+export module libra.kernel.third.mscharconv;
 
-export namespace Twinning::Kernel::Third::mscharconv {
+export namespace Libra::Kernel::Third::mscharconv {
 
 	using ::msstl::chars_format;
 

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.wwise.sound_bank.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.wwise.sound_bank.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Wwise::SoundBank {
+export namespace Libra::Kernel::Tool::Wwise::SoundBank {
 
 	M_record_of_map(
 		M_wrap(Version),

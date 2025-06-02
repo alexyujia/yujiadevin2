@@ -3,12 +3,12 @@ module;
 #include <typeinfo>
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.exception.exception;
-import twinning.kernel.third.fmt;
-import twinning.kernel.third.system.windows;
+export module libra.kernel.utility.exception.utility;
+import libra.kernel.utility.exception.exception;
+import libra.kernel.third.fmt;
+import libra.kernel.third.system.windows;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region detail
 

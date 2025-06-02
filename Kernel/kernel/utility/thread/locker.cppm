@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.thread.locker;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.thread.mutex;
+export module libra.kernel.utility.thread.locker;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.thread.mutex;
 
-export namespace Twinning::Kernel::Thread {
+export namespace Libra::Kernel::Thread {
 
 	#pragma region type
 

@@ -2,13 +2,13 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.utility.interaction;
-import twinning.shell.utility.string;
-import twinning.shell.third.system.posix;
-import twinning.shell.third.system.windows;
-import twinning.shell.third.tinyfiledialogs;
+export module libra.shell.utility.interaction;
+import libra.shell.utility.string;
+import libra.shell.third.system.posix;
+import libra.shell.third.system.windows;
+import libra.shell.third.tinyfiledialogs;
 
-export namespace Twinning::Shell::Interaction {
+export namespace Libra::Shell::Interaction {
 
 	#pragma region console
 

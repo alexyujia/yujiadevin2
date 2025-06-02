@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.data.differentiation {
+namespace Libra.Script.Executor.Implement.data.differentiation {
 
 	// ------------------------------------------------
 
@@ -99,4 +99,4 @@ namespace Twinning.Script.Executor.Implement.data.differentiation {
 
 }
 
-Twinning.Script.Executor.Implement.data.differentiation.injector;
+Libra.Script.Executor.Implement.data.differentiation.injector;

@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.pvz2.text_table {
+namespace Libra.Script.Executor.Implement.pvz2.text_table {
 
 	// ------------------------------------------------
 
@@ -53,4 +53,4 @@ namespace Twinning.Script.Executor.Implement.pvz2.text_table {
 
 }
 
-Twinning.Script.Executor.Implement.pvz2.text_table.injector;
+Libra.Script.Executor.Implement.pvz2.text_table.injector;

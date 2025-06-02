@@ -6,22 +6,22 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.main_console_bridge_client",
+          "logical-name": "libra.shell.main_console_bridge_client",
           "source-path": "shell\\main_console_bridge_client.cppm"
         }
       ],
       "requires": [
         {
-          "logical-name": "twinning.common.std"
+          "logical-name": "libra.common.std"
         },
         {
-          "logical-name": "twinning.shell.utility.string"
+          "logical-name": "libra.shell.utility.string"
         },
         {
-          "logical-name": "twinning.shell.utility.interaction"
+          "logical-name": "libra.shell.utility.interaction"
         },
         {
-          "logical-name": "twinning.shell.bridge.client"
+          "logical-name": "libra.shell.bridge.client"
         }
       ]
     }

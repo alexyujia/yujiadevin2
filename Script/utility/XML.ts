@@ -1,4 +1,4 @@
-namespace Twinning.Script.XML {
+namespace Libra.Script.XML {
 
 	// ------------------------------------------------
 

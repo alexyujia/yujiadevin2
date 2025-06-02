@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.data.compression {
+namespace Libra.Script.Executor.Implement.data.compression {
 
 	// ------------------------------------------------
 

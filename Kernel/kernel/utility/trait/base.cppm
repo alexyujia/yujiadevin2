@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.trait.base;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.exception.exception;
-import twinning.kernel.utility.exception.utility;
+export module libra.kernel.utility.trait.base;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.exception.exception;
+import libra.kernel.utility.exception.utility;
 
-export namespace Twinning::Kernel::Trait {
+export namespace Libra::Kernel::Trait {
 
 	#pragma region constraint comment
 

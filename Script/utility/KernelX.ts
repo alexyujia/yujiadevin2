@@ -1,4 +1,4 @@
-namespace Twinning.Script.KernelX {
+namespace Libra.Script.KernelX {
 
 	// ------------------------------------------------
 

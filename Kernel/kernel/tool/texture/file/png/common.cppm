@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.file.png.common;
-import twinning.kernel.utility;
-import twinning.kernel.third.libpng;
+export module libra.kernel.tool.texture.file.png.common;
+import libra.kernel.utility;
+import libra.kernel.third.libpng;
 
-export namespace Twinning::Kernel::Tool::Texture::File::PNG {
+export namespace Libra::Kernel::Tool::Texture::File::PNG {
 
 	struct Common {
 

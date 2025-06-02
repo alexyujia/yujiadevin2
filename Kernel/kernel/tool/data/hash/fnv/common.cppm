@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.hash.fnv.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.data.hash.fnv.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Data::Hash::FNV {
+export namespace Libra::Kernel::Tool::Data::Hash::FNV {
 
 	M_enumeration(
 		M_wrap(Mode),

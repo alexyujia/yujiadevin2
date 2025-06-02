@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.data.json.value_adapter;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
+export module libra.kernel.utility.data.json.value_adapter;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
 
-export namespace Twinning::Kernel::JSON {
+export namespace Libra::Kernel::JSON {
 
 	#pragma region type
 

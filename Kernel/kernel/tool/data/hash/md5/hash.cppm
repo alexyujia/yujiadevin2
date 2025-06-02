@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.hash.md5.hash;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.hash.md5.common;
-import twinning.kernel.third.md5;
+export module libra.kernel.tool.data.hash.md5.hash;
+import libra.kernel.utility;
+import libra.kernel.tool.data.hash.md5.common;
+import libra.kernel.third.md5;
 
-export namespace Twinning::Kernel::Tool::Data::Hash::MD5 {
+export namespace Libra::Kernel::Tool::Data::Hash::MD5 {
 
 	struct Hash :
 		Common {

@@ -2,12 +2,12 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.utility.library;
-import twinning.shell.utility.string;
-import twinning.shell.third.system.posix;
-import twinning.shell.third.system.windows;
+export module libra.shell.utility.library;
+import libra.shell.utility.string;
+import libra.shell.third.system.posix;
+import libra.shell.third.system.windows;
 
-export namespace Twinning::Shell {
+export namespace Libra::Shell {
 
 	#pragma region type
 

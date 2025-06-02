@@ -1,4 +1,4 @@
-namespace Twinning.Script.Language {
+namespace Libra.Script.Language {
 
 	// ------------------------------------------------
 
@@ -48,7 +48,7 @@ namespace Twinning.Script.Language {
 	// ------------------------------------------------
 
 }
-namespace Twinning.Script {
+namespace Libra.Script {
 	/** LOcalized String, @see {@link Language.query} */
 	export const los = Language.query;
 }

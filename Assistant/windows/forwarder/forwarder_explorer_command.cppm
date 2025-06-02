@@ -6,7 +6,7 @@ module;
 #include <wrl/implements.h>
 #include "./common.hpp"
 
-export module twinning.assistant.forwarder.forwarder_explorer_command;
+export module libra.assistant.forwarder.forwarder_explorer_command;
 
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
 
@@ -36,9 +36,9 @@ export {
 			m_application_name{},
 			m_application_logo{},
 			m_state_file{} {
-			thiz.m_application_name = L"Twinning Assistant";
+			thiz.m_application_name = L"Libra Assistant";
 			thiz.m_application_logo = thiz.get_library_file_path();
-			thiz.m_state_file = thiz.get_roaming_directory_path() + L"\\TwinStar.Twinning.Assistant\\forwarder";
+			thiz.m_state_file = thiz.get_roaming_directory_path() + L"\\Yujia.Libra.Assistant\\forwarder";
 		}
 
 		#pragma endregion
@@ -261,7 +261,7 @@ export {
 			command.append_range(resource);
 			auto link = std::wstring{};
 			link.reserve(1024);
-			link += L"twinstar.twinning.assistant:/application?";
+			link += L"yujia.libra.assistant:/application?";
 			for (auto & item : command) {
 				link += L"command=";
 				link += thiz.encode_percent_string(item);

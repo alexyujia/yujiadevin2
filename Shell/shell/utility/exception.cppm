@@ -3,9 +3,9 @@ module;
 #include <typeinfo>
 #include "shell/common.hpp"
 
-export module twinning.shell.utility.exception;
+export module libra.shell.utility.exception;
 
-export namespace Twinning::Shell {
+export namespace Libra::Shell {
 
 	#pragma region function
 

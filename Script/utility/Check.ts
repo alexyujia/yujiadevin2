@@ -1,4 +1,4 @@
-namespace Twinning.Script.Check {
+namespace Libra.Script.Check {
 
 	// ------------------------------------------------
 

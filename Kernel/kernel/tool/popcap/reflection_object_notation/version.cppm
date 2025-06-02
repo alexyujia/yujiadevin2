@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.reflection_object_notation.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.reflection_object_notation.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::ReflectionObjectNotation {
+export namespace Libra::Kernel::Tool::PopCap::ReflectionObjectNotation {
 
 	M_record_of_map(
 		M_wrap(Version),

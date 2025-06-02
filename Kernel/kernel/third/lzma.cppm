@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.lzma;
+export module libra.kernel.third.lzma;
 
-export namespace Twinning::Kernel::Third::lzma {
+export namespace Libra::Kernel::Third::lzma {
 
 	using $Byte = ::Byte;
 

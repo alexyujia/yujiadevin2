@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.texture.encoding {
+namespace Libra.Script.Executor.Implement.texture.encoding {
 
 	// ------------------------------------------------
 
@@ -101,4 +101,4 @@ namespace Twinning.Script.Executor.Implement.texture.encoding {
 
 }
 
-Twinning.Script.Executor.Implement.texture.encoding.injector;
+Libra.Script.Executor.Implement.texture.encoding.injector;

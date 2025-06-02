@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.common.wave_structure;
-import twinning.kernel.utility;
+export module libra.kernel.tool.common.wave_structure;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::WaveStructure {
+export namespace Libra::Kernel::Tool::WaveStructure {
 
 	#pragma region type
 

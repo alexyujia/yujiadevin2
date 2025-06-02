@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.twinstar.twinning.assistant"
+    namespace = "com.libra.toolkit"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "28.1.13356709"
 
@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.twinstar.twinning.assistant"
+        applicationId = "com.libra.toolkit"
         minSdk = 28
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.render_effect.decode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.render_effect.version;
-import twinning.kernel.tool.popcap.render_effect.definition;
-import twinning.kernel.tool.popcap.render_effect.common;
-import twinning.kernel.tool.common.byte_stream;
+export module libra.kernel.tool.popcap.render_effect.decode;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.render_effect.version;
+import libra.kernel.tool.popcap.render_effect.definition;
+import libra.kernel.tool.popcap.render_effect.common;
+import libra.kernel.tool.common.byte_stream;
 
-export namespace Twinning::Kernel::Tool::PopCap::RenderEffect {
+export namespace Libra::Kernel::Tool::PopCap::RenderEffect {
 
 	template <auto version> requires (check_version(version, {}, {}))
 	struct Decode :

@@ -1,5 +1,5 @@
 // 计算 Wwise Short ID
-namespace Twinning.Script.Executable.ComputeWwiseShortID {
+namespace Libra.Script.Executable.ComputeWwiseShortID {
 
 	export function execute(
 	): void {
@@ -17,4 +17,4 @@ namespace Twinning.Script.Executable.ComputeWwiseShortID {
 
 }
 
-Twinning.Script.Executable.ComputeWwiseShortID.execute();
+Libra.Script.Executable.ComputeWwiseShortID.execute();

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.transformation.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.texture.transformation.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Texture::Transformation {
+export namespace Libra::Kernel::Tool::Texture::Transformation {
 
 	struct Common {
 

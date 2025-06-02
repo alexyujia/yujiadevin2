@@ -1,4 +1,4 @@
-namespace Twinning.Script.PathUtility {
+namespace Libra.Script.PathUtility {
 
 	// ------------------------------------------------
 

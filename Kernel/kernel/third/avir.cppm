@@ -7,9 +7,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.avir;
+export module libra.kernel.third.avir;
 
-export namespace Twinning::Kernel::Third::avir {
+export namespace Libra::Kernel::Third::avir {
 
 	using ::avir::CImageResizer;
 

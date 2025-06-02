@@ -6,7 +6,7 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.third.tinyfiledialogs",
+          "logical-name": "libra.shell.third.tinyfiledialogs",
           "source-path": "shell\\third\\tinyfiledialogs.cppm"
         }
       ]

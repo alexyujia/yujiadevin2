@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.PopCap.ReflectionObjectNotation.DecodeLenient {
+namespace Libra.Script.Support.PopCap.ReflectionObjectNotation.DecodeLenient {
 
 	// ------------------------------------------------
 

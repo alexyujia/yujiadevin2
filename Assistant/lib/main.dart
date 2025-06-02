@@ -164,7 +164,7 @@ class _Main {
   static Future<Void> _handleLink(
     Uri link,
   ) async {
-    if (link.scheme != 'twinstar.twinning.assistant' || link.hasAuthority || link.path != '/application') {
+    if (link.scheme != 'yujia.libra.assistant' || link.hasAuthority || link.path != '/application') {
       throw Exception('invalid link');
     }
     var command = link.queryParametersAll['command'] ?? [];
@@ -215,7 +215,7 @@ class _Main {
         await windowManager.waitUntilReadyToShow();
         await windowManager.show();
       }
-      if (!(await AppLinks().getInitialLinkString() ?? '').startsWith('twinstar.twinning.assistant:')) {
+      if (!(await AppLinks().getInitialLinkString() ?? '').startsWith('yujia.libra.assistant:')) {
         if (argument.length >= 1 && argument[0] == 'application') {
           ControlHelper.postTask(() async {
             _handleCommand(argument.slice(1));
@@ -229,7 +229,7 @@ class _Main {
       }
       AppLinks().stringLinkStream.listen((link) async {
         ControlHelper.postTask(() async {
-          if (link.startsWith('twinstar.twinning.assistant:')) {
+          if (link.startsWith('yujia.libra.assistant:')) {
             _handleLink(Uri.parse(link));
           }
         });

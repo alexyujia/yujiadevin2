@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.zlib.compress;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.zlib.version;
-import twinning.kernel.tool.popcap.zlib.common;
-import twinning.kernel.tool.data.compression.deflate.common;
-import twinning.kernel.tool.data.compression.deflate.compress;
+export module libra.kernel.tool.popcap.zlib.compress;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.zlib.version;
+import libra.kernel.tool.popcap.zlib.common;
+import libra.kernel.tool.data.compression.deflate.common;
+import libra.kernel.tool.data.compression.deflate.compress;
 
-export namespace Twinning::Kernel::Tool::PopCap::ZLib {
+export namespace Libra::Kernel::Tool::PopCap::ZLib {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Compress :

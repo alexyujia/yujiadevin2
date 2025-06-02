@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.compression.etc.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.texture.compression.etc.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Texture::Compression::ETC {
+export namespace Libra::Kernel::Tool::Texture::Compression::ETC {
 
 	M_enumeration(
 		M_wrap(Format),

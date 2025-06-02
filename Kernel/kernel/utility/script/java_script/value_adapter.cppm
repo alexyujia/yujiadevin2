@@ -2,13 +2,13 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.script.java_script.value_adapter;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
+export module libra.kernel.utility.script.java_script.value_adapter;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
 
-export namespace Twinning::Kernel::JavaScript {
+export namespace Libra::Kernel::JavaScript {
 
 	#pragma region type
 

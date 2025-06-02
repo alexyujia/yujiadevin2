@@ -10,26 +10,26 @@ module;
 #define si_status _sifields._sigchld._status
 #endif
 
-export module twinning.kernel.utility.process.utility;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.string.encoding;
-import twinning.kernel.utility.storage.path;
-import twinning.kernel.utility.storage.utility;
-import twinning.kernel.utility.range.number_range;
-import twinning.kernel.utility.miscellaneous.character_series.type;
-import twinning.kernel.utility.container.list.list;
-import twinning.kernel.utility.container.array.array;
-import twinning.kernel.utility.string.basic_string;
-import twinning.kernel.utility.string.basic_string_view;
-import twinning.kernel.utility.container.optional.optional;
-import twinning.kernel.third.system.windows;
-import twinning.kernel.third.system.posix;
+export module libra.kernel.utility.process.utility;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.string.encoding;
+import libra.kernel.utility.storage.path;
+import libra.kernel.utility.storage.utility;
+import libra.kernel.utility.range.number_range;
+import libra.kernel.utility.miscellaneous.character_series.type;
+import libra.kernel.utility.container.list.list;
+import libra.kernel.utility.container.array.array;
+import libra.kernel.utility.string.basic_string;
+import libra.kernel.utility.string.basic_string_view;
+import libra.kernel.utility.container.optional.optional;
+import libra.kernel.third.system.windows;
+import libra.kernel.third.system.posix;
 
-export namespace Twinning::Kernel::Process {
+export namespace Libra::Kernel::Process {
 
 	#pragma region detail
 

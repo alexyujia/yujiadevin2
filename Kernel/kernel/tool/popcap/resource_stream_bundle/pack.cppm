@@ -2,22 +2,22 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.resource_stream_bundle.pack;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.resource_stream_bundle.version;
-import twinning.kernel.tool.popcap.resource_stream_bundle.definition;
-import twinning.kernel.tool.popcap.resource_stream_bundle.manifest;
-import twinning.kernel.tool.popcap.resource_stream_bundle.structure;
-import twinning.kernel.tool.popcap.resource_stream_bundle.shared;
-import twinning.kernel.tool.popcap.resource_stream_bundle.common;
-import twinning.kernel.tool.popcap.resource_stream_group.version;
-import twinning.kernel.tool.popcap.resource_stream_group.definition;
-import twinning.kernel.tool.popcap.resource_stream_group.structure;
-import twinning.kernel.tool.popcap.resource_stream_group.common;
-import twinning.kernel.tool.popcap.resource_stream_group.pack;
-import twinning.kernel.tool.popcap.resource_stream_group.unpack;
+export module libra.kernel.tool.popcap.resource_stream_bundle.pack;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.resource_stream_bundle.version;
+import libra.kernel.tool.popcap.resource_stream_bundle.definition;
+import libra.kernel.tool.popcap.resource_stream_bundle.manifest;
+import libra.kernel.tool.popcap.resource_stream_bundle.structure;
+import libra.kernel.tool.popcap.resource_stream_bundle.shared;
+import libra.kernel.tool.popcap.resource_stream_bundle.common;
+import libra.kernel.tool.popcap.resource_stream_group.version;
+import libra.kernel.tool.popcap.resource_stream_group.definition;
+import libra.kernel.tool.popcap.resource_stream_group.structure;
+import libra.kernel.tool.popcap.resource_stream_group.common;
+import libra.kernel.tool.popcap.resource_stream_group.pack;
+import libra.kernel.tool.popcap.resource_stream_group.unpack;
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundle {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundle {
 
 	template <auto version> requires (check_version(version, {}, {}))
 	struct Pack :

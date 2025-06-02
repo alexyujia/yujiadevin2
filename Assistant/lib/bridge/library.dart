@@ -43,10 +43,10 @@ class Library {
     try {
       symbol = handle.lookup<Service>(() {
         if (Platform.isWindows) {
-          return '?service@Interface@Kernel@Twinning@@3UService@123@A';
+          return '?service@Interface@Kernel@Libra@@3UService@123@A';
         }
         if (Platform.isLinux || Platform.isMacOS || Platform.isAndroid || Platform.isIOS) {
-          return '_ZN8Twinning6Kernel9Interface7serviceE';
+          return '_ZN5Libra6Kernel9Interface7serviceE';
         }
         throw UnimplementedError();
       }());

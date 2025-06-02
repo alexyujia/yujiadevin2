@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.resource_stream_bundle.definition;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.resource_stream_bundle.version;
-import twinning.kernel.tool.popcap.resource_stream_bundle.shared;
+export module libra.kernel.tool.popcap.resource_stream_bundle.definition;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.resource_stream_bundle.version;
+import libra.kernel.tool.popcap.resource_stream_bundle.shared;
 
-export namespace Twinning::Kernel::Tool::PopCap::ResourceStreamBundle {
+export namespace Libra::Kernel::Tool::PopCap::ResourceStreamBundle {
 
 	template <auto version> requires (check_version(version, {}, {}))
 	struct Definition {

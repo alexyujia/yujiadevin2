@@ -6,22 +6,22 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.bridge.launcher",
+          "logical-name": "libra.shell.bridge.launcher",
           "source-path": "shell\\bridge\\launcher.cppm"
         }
       ],
       "requires": [
         {
-          "logical-name": "twinning.common.std"
+          "logical-name": "libra.common.std"
         },
         {
-          "logical-name": "twinning.shell.bridge.proxy"
+          "logical-name": "libra.shell.bridge.proxy"
         },
         {
-          "logical-name": "twinning.shell.bridge.library"
+          "logical-name": "libra.shell.bridge.library"
         },
         {
-          "logical-name": "twinning.shell.bridge.client"
+          "logical-name": "libra.shell.bridge.client"
         }
       ]
     }

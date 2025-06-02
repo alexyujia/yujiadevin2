@@ -2,9 +2,9 @@ module;
 
 #include "shell/common.hpp"
 
-export module twinning.shell.bridge.client;
+export module libra.shell.bridge.client;
 
-export namespace Twinning::Shell::Bridge {
+export namespace Libra::Shell::Bridge {
 
 	#pragma region type
 

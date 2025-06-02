@@ -2,16 +2,16 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.miscellaneous.allocation;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.null;
-import twinning.kernel.utility.range.algorithm;
-import twinning.kernel.utility.range.range_wrapper;
+export module libra.kernel.utility.miscellaneous.allocation;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.null;
+import libra.kernel.utility.range.algorithm;
+import libra.kernel.utility.range.range_wrapper;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region single allocate
 

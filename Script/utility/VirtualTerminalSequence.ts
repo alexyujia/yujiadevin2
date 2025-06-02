@@ -1,4 +1,4 @@
-namespace Twinning.Script.VirtualTerminalSequence {
+namespace Libra.Script.VirtualTerminalSequence {
 
 	// ------------------------------------------------
 

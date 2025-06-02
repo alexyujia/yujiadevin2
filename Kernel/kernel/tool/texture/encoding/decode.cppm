@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.texture.encoding.decode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.texture.encoding.common;
+export module libra.kernel.tool.texture.encoding.decode;
+import libra.kernel.utility;
+import libra.kernel.tool.texture.encoding.common;
 
-export namespace Twinning::Kernel::Tool::Texture::Encoding {
+export namespace Libra::Kernel::Tool::Texture::Encoding {
 
 	struct Decode :
 		Common {

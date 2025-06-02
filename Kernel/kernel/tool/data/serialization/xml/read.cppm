@@ -4,12 +4,12 @@ module;
 
 // TODO : refactor, use stream style api ?
 
-export module twinning.kernel.tool.data.serialization.xml.read;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.serialization.xml.common;
-import twinning.kernel.third.tinyxml2;
+export module libra.kernel.tool.data.serialization.xml.read;
+import libra.kernel.utility;
+import libra.kernel.tool.data.serialization.xml.common;
+import libra.kernel.third.tinyxml2;
 
-export namespace Twinning::Kernel::Tool::Data::Serialization::XML {
+export namespace Libra::Kernel::Tool::Data::Serialization::XML {
 
 	struct Read :
 		Common {

@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.Atlas.PackAutomatic {
+namespace Libra.Script.Support.Atlas.PackAutomatic {
 
 	// ------------------------------------------------
 

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.miscellaneous.pvz2_cn_alpha_palette_texture.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.miscellaneous.pvz2_cn_alpha_palette_texture.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Miscellaneous::PvZ2CNAlphaPaletteTexture {
+export namespace Libra::Kernel::Tool::Miscellaneous::PvZ2CNAlphaPaletteTexture {
 
 	struct Common {
 

@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.serialization.json.write;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.serialization.json.common;
+export module libra.kernel.tool.data.serialization.json.write;
+import libra.kernel.utility;
+import libra.kernel.tool.data.serialization.json.common;
 
-export namespace Twinning::Kernel::Tool::Data::Serialization::JSON {
+export namespace Libra::Kernel::Tool::Data::Serialization::JSON {
 
 	struct Write :
 		Common {

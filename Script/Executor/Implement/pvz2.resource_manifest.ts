@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.pvz2.resource_manifest {
+namespace Libra.Script.Executor.Implement.pvz2.resource_manifest {
 
 	// ------------------------------------------------
 
@@ -143,4 +143,4 @@ namespace Twinning.Script.Executor.Implement.pvz2.resource_manifest {
 
 }
 
-Twinning.Script.Executor.Implement.pvz2.resource_manifest.injector;
+Libra.Script.Executor.Implement.pvz2.resource_manifest.injector;

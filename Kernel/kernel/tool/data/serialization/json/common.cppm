@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.serialization.json.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.data.serialization.json.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Data::Serialization::JSON {
+export namespace Libra::Kernel::Tool::Data::Serialization::JSON {
 
 	using Kernel::JSON::ValueType;
 

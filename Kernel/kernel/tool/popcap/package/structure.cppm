@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.package.structure;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.package.version;
+export module libra.kernel.tool.popcap.package.structure;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.package.version;
 
-export namespace Twinning::Kernel::Tool::PopCap::Package::Structure {
+export namespace Libra::Kernel::Tool::PopCap::Package::Structure {
 
 	#pragma region magic identifier
 

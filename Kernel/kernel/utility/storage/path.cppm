@@ -2,19 +2,19 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.storage.path;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.container.optional.optional;
-import twinning.kernel.utility.container.list.list;
-import twinning.kernel.utility.string.string;
-import twinning.kernel.utility.miscellaneous.character_series.type;
-import twinning.kernel.utility.range.range_wrapper;
-import twinning.kernel.utility.string.basic_string;
+export module libra.kernel.utility.storage.path;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.container.optional.optional;
+import libra.kernel.utility.container.list.list;
+import libra.kernel.utility.string.string;
+import libra.kernel.utility.miscellaneous.character_series.type;
+import libra.kernel.utility.range.range_wrapper;
+import libra.kernel.utility.string.basic_string;
 
-export namespace Twinning::Kernel::Storage {
+export namespace Libra::Kernel::Storage {
 
 	#pragma region type
 
@@ -258,6 +258,6 @@ export namespace Twinning::Kernel::Storage {
 
 // NOTE : USING
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 	using Storage::Path;
 }

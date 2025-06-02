@@ -1,4 +1,4 @@
-namespace Twinning.Script.AndroidHelper {
+namespace Libra.Script.AndroidHelper {
 
 	// ------------------------------------------------
 
@@ -8,7 +8,7 @@ namespace Twinning.Script.AndroidHelper {
 
 	// ------------------------------------------------
 
-	export const k_remote_temporary_directory = `/data/local/tmp/twinning`;
+	export const k_remote_temporary_directory = `/data/local/tmp/libra`;
 
 	function es(
 		source: string,

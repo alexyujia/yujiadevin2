@@ -68,4 +68,4 @@
 	
 	* `etcpak`：移除不需要的依赖，暴露所需的接口。
 	
-	> 任何修改都会以 `// TwinStar : insert|remove|change` 做出标示。
+	> 任何修改都会以 `// YuJia : insert|remove|change` 做出标示。

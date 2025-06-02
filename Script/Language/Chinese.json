@@ -1,5 +1,5 @@
 {
-	/* original by TwinStar */
+	/* original by Yujia */
 	// main
 	"main:partition_load_finish": "脚本加载完成",
 	"main:partition_load_duration": "用时 {} s",

@@ -2,17 +2,17 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.string.encoding;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.string.basic_string_view;
-import twinning.kernel.utility.string.basic_string;
-import twinning.kernel.utility.string.basic_static_string;
-import twinning.kernel.utility.string.string;
+export module libra.kernel.utility.string.encoding;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.string.basic_string_view;
+import libra.kernel.utility.string.basic_string;
+import libra.kernel.utility.string.basic_static_string;
+import libra.kernel.utility.string.string;
 
-export namespace Twinning::Kernel::StringEncoding {
+export namespace Libra::Kernel::StringEncoding {
 
 	#pragma region utf-16
 

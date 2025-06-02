@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.marmalade.dzip {
+namespace Libra.Script.Executor.Implement.marmalade.dzip {
 
 	// ------------------------------------------------
 
@@ -174,4 +174,4 @@ namespace Twinning.Script.Executor.Implement.marmalade.dzip {
 
 }
 
-Twinning.Script.Executor.Implement.marmalade.dzip.injector;
+Libra.Script.Executor.Implement.marmalade.dzip.injector;

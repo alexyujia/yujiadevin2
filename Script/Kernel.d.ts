@@ -2,7 +2,7 @@
  * JavaScript interface of Kernel
  * @version 72
  */
-declare namespace Twinning.Kernel {
+declare namespace Libra.Kernel {
 
 	// ------------------------------------------------
 

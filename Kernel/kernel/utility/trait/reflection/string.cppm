@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.trait.reflection.string;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait.base;
-import twinning.kernel.utility.trait.category;
+export module libra.kernel.utility.trait.reflection.string;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait.base;
+import libra.kernel.utility.trait.category;
 
-export namespace Twinning::Kernel::Trait::Reflection {
+export namespace Libra::Kernel::Trait::Reflection {
 
 	#pragma region type
 

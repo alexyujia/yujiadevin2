@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.texture.transformation {
+namespace Libra.Script.Executor.Implement.texture.transformation {
 
 	// ------------------------------------------------
 
@@ -184,4 +184,4 @@ namespace Twinning.Script.Executor.Implement.texture.transformation {
 
 }
 
-Twinning.Script.Executor.Implement.texture.transformation.injector;
+Libra.Script.Executor.Implement.texture.transformation.injector;

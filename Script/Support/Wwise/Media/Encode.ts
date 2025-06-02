@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.Wwise.Media.Encode {
+namespace Libra.Script.Support.Wwise.Media.Encode {
 
 	// ------------------------------------------------
 

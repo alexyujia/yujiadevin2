@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.particle_effect.definition;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.particle_effect.version;
+export module libra.kernel.tool.popcap.particle_effect.definition;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.particle_effect.version;
 
-export namespace Twinning::Kernel::Tool::PopCap::ParticleEffect {
+export namespace Libra::Kernel::Tool::PopCap::ParticleEffect {
 
 	template <auto version> requires (check_version(version, {}))
 	struct Definition {

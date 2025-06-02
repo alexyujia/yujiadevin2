@@ -2,17 +2,17 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.range.algorithm;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.container.optional.optional;
-import twinning.kernel.utility.container.optional.null_optional;
-import twinning.kernel.utility.range.number_range;
-import twinning.kernel.utility.range.range_wrapper;
+export module libra.kernel.utility.range.algorithm;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.container.optional.optional;
+import libra.kernel.utility.container.optional.null_optional;
+import libra.kernel.utility.range.number_range;
+import libra.kernel.utility.range.range_wrapper;
 
-export namespace Twinning::Kernel::Range {
+export namespace Libra::Kernel::Range {
 
 	#pragma region size
 

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.marmalade.dzip.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.marmalade.dzip.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Marmalade::DZip {
+export namespace Libra::Kernel::Tool::Marmalade::DZip {
 
 	M_record_of_map(
 		M_wrap(Version),

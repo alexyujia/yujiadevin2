@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.PopCap.Package.PackAutomatic {
+namespace Libra.Script.Support.PopCap.Package.PackAutomatic {
 
 	// ------------------------------------------------
 

@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.popcap.resource_stream_bundle_patch {
+namespace Libra.Script.Executor.Implement.popcap.resource_stream_bundle_patch {
 
 	// ------------------------------------------------
 
@@ -125,4 +125,4 @@ namespace Twinning.Script.Executor.Implement.popcap.resource_stream_bundle_patch
 
 }
 
-Twinning.Script.Executor.Implement.popcap.resource_stream_bundle_patch.injector;
+Libra.Script.Executor.Implement.popcap.resource_stream_bundle_patch.injector;

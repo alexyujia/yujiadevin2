@@ -2,18 +2,18 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.support.character_stream.basic;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.container.stream.stream_view;
-import twinning.kernel.utility.miscellaneous.character_series.container;
-import twinning.kernel.utility.miscellaneous.character_series.stream;
-import twinning.kernel.utility.miscellaneous.character_series.stream_adapter;
-import twinning.kernel.utility.string.string;
+export module libra.kernel.utility.support.character_stream.basic;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.container.stream.stream_view;
+import libra.kernel.utility.miscellaneous.character_series.container;
+import libra.kernel.utility.miscellaneous.character_series.stream;
+import libra.kernel.utility.miscellaneous.character_series.stream_adapter;
+import libra.kernel.utility.string.string;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region character
 

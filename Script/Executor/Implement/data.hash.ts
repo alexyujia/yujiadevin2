@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.data.hash {
+namespace Libra.Script.Executor.Implement.data.hash {
 
 	// ------------------------------------------------
 
@@ -49,4 +49,4 @@ namespace Twinning.Script.Executor.Implement.data.hash {
 
 }
 
-Twinning.Script.Executor.Implement.data.hash.injector;
+Libra.Script.Executor.Implement.data.hash.injector;

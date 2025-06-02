@@ -1,4 +1,4 @@
-namespace Twinning.Script.Support.PopCap.Animation.Convert.Flash.To {
+namespace Libra.Script.Support.PopCap.Animation.Convert.Flash.To {
 
 	// ------------------------------------------------
 

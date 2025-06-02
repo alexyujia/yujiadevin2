@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.differentiation.vcdiff.encode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.differentiation.vcdiff.common;
-import twinning.kernel.third.open_vcdiff;
+export module libra.kernel.tool.data.differentiation.vcdiff.encode;
+import libra.kernel.utility;
+import libra.kernel.tool.data.differentiation.vcdiff.common;
+import libra.kernel.third.open_vcdiff;
 
-export namespace Twinning::Kernel::Tool::Data::Differentiation::VCDiff {
+export namespace Libra::Kernel::Tool::Data::Differentiation::VCDiff {
 
 	struct Encode :
 		Common {

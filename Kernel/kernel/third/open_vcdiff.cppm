@@ -8,9 +8,9 @@ module;
 
 #pragma clang diagnostic pop
 
-export module twinning.kernel.third.open_vcdiff;
+export module libra.kernel.third.open_vcdiff;
 
-export namespace Twinning::Kernel::Third::open_vcdiff {
+export namespace Libra::Kernel::Third::open_vcdiff {
 
 	using ::open_vcdiff::HashedDictionary;
 

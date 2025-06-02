@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.exception.exception;
-import twinning.kernel.utility.exception.source_location;
-import twinning.kernel.third.fmt;
+export module libra.kernel.utility.exception.exception;
+import libra.kernel.utility.exception.source_location;
+import libra.kernel.third.fmt;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region type
 

@@ -1,4 +1,4 @@
-package com.twinstar.twinning.assistant
+package com.yujia.libra.assistant
 
 import android.app.Activity
 import android.content.ClipData
@@ -83,7 +83,7 @@ class ForwarderActivity : Activity() {
 		val command = mutableListOf<String>()
 		command.add("-forward")
 		command.addAll(resource.map() { item -> item.toString() })
-		val link = Uri.parse("twinstar.twinning.assistant:/application?${command.joinToString("&") { item -> "command=${this.encodePercentString(item)}" }}")
+		val link = Uri.parse("yujia.libra.assistant:/application?${command.joinToString("&") { item -> "command=${this.encodePercentString(item)}" }}")
 		this.openLink(link, resource)
 		return
 	}

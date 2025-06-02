@@ -6,22 +6,22 @@
       "provides": [
         {
           "is-interface": true,
-          "logical-name": "twinning.shell.utility.library",
+          "logical-name": "libra.shell.utility.library",
           "source-path": "shell\\utility\\library.cppm"
         }
       ],
       "requires": [
         {
-          "logical-name": "twinning.common.std"
+          "logical-name": "libra.common.std"
         },
         {
-          "logical-name": "twinning.shell.utility.string"
+          "logical-name": "libra.shell.utility.string"
         },
         {
-          "logical-name": "twinning.shell.third.system.posix"
+          "logical-name": "libra.shell.third.system.posix"
         },
         {
-          "logical-name": "twinning.shell.third.system.windows"
+          "logical-name": "libra.shell.third.system.windows"
         }
       ]
     }

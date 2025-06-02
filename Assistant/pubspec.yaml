@@ -32,13 +32,13 @@ flutter:
   assets:
     - asset/
 msix_config:
-  display_name: Twinning Assistant
-  publisher_display_name: TwinStar
-  identity_name: TwinStar.Twinning.Assistant
+  display_name: Libra Toolkit
+  publisher_display_name: Yujia
+  identity_name: Libra.Toolkit
   logo_path: asset/logo.png
   trim_logo: false
   languages: EN-US
-  protocol_activation: twinstar.twinning.assistant
+  protocol_activation: libra.toolkit
   toast_activator:
     clsid: 3FCD5C89-78F3-489B-88E5-37CBC3C3FC1A
     arguments: "----AppNotificationActivated:"
@@ -48,17 +48,17 @@ msix_config:
     items:
       - type: "*"
         commands:
-          - id: TwinningAssistant
+          - id: LibraAssistant
             clsid: 9992EC48-22A5-86FA-EA42-72DA1A53F23D
       - type: "Directory"
         commands:
-          - id: TwinningAssistant
+          - id: LibraAssistant
             clsid: 9992EC48-22A5-86FA-EA42-72DA1A53F23D
       - type: "Directory\\Background"
         commands:
-          - id: TwinningAssistant
+          - id: LibraAssistant
             clsid: 9992EC48-22A5-86FA-EA42-72DA1A53F23D
-  publisher: CN=TwinStar
+  publisher: CN=Yujia
   architecture: x64
   build_windows: false
   sign_msix: false

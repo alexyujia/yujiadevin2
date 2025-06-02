@@ -2,12 +2,12 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.compression.bzip2.uncompress;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.compression.bzip2.common;
-import twinning.kernel.third.bzip2;
+export module libra.kernel.tool.data.compression.bzip2.uncompress;
+import libra.kernel.utility;
+import libra.kernel.tool.data.compression.bzip2.common;
+import libra.kernel.third.bzip2;
 
-export namespace Twinning::Kernel::Tool::Data::Compression::BZip2 {
+export namespace Libra::Kernel::Tool::Data::Compression::BZip2 {
 
 	struct Uncompress :
 		Common {

@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.compression.lzma.common;
-import twinning.kernel.utility;
+export module libra.kernel.tool.data.compression.lzma.common;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::Data::Compression::Lzma {
+export namespace Libra::Kernel::Tool::Data::Compression::Lzma {
 
 	struct Common {
 

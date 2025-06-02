@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.marmalade.dzip.structure;
-import twinning.kernel.utility;
-import twinning.kernel.tool.marmalade.dzip.version;
+export module libra.kernel.tool.marmalade.dzip.structure;
+import libra.kernel.utility;
+import libra.kernel.tool.marmalade.dzip.version;
 
-export namespace Twinning::Kernel::Tool::Marmalade::DZip::Structure {
+export namespace Libra::Kernel::Tool::Marmalade::DZip::Structure {
 
 	#pragma region magic identifier
 
@@ -172,7 +172,7 @@ export namespace Twinning::Kernel::Tool::Marmalade::DZip::Structure {
 
 // NOTE : MORESPACE
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	template <auto t_version> requires
 		AutoConstraint

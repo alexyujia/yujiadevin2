@@ -2,15 +2,15 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.utility.miscellaneous.number_variant;
-import twinning.kernel.utility.builtin;
-import twinning.kernel.utility.trait;
-import twinning.kernel.utility.box;
-import twinning.kernel.utility.exception.utility;
-import twinning.kernel.utility.container.variant.variant;
-import twinning.kernel.utility.container.variant.enumerable_variant;
+export module libra.kernel.utility.miscellaneous.number_variant;
+import libra.kernel.utility.builtin;
+import libra.kernel.utility.trait;
+import libra.kernel.utility.box;
+import libra.kernel.utility.exception.utility;
+import libra.kernel.utility.container.variant.variant;
+import libra.kernel.utility.container.variant.enumerable_variant;
 
-export namespace Twinning::Kernel {
+export namespace Libra::Kernel {
 
 	#pragma region sub type
 

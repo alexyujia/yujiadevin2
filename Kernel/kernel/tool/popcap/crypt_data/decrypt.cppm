@@ -2,14 +2,14 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.crypt_data.decrypt;
-import twinning.kernel.utility;
-import twinning.kernel.tool.popcap.crypt_data.version;
-import twinning.kernel.tool.popcap.crypt_data.common;
-import twinning.kernel.tool.data.encryption.exor.common;
-import twinning.kernel.tool.data.encryption.exor.encrypt;
+export module libra.kernel.tool.popcap.crypt_data.decrypt;
+import libra.kernel.utility;
+import libra.kernel.tool.popcap.crypt_data.version;
+import libra.kernel.tool.popcap.crypt_data.common;
+import libra.kernel.tool.data.encryption.exor.common;
+import libra.kernel.tool.data.encryption.exor.encrypt;
 
-export namespace Twinning::Kernel::Tool::PopCap::CryptData {
+export namespace Libra::Kernel::Tool::PopCap::CryptData {
 
 	template <auto version> requires (check_version(version))
 	struct Decrypt :

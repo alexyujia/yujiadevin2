@@ -2,11 +2,11 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.data.encoding.base64.decode;
-import twinning.kernel.utility;
-import twinning.kernel.tool.data.encoding.base64.common;
+export module libra.kernel.tool.data.encoding.base64.decode;
+import libra.kernel.utility;
+import libra.kernel.tool.data.encoding.base64.common;
 
-export namespace Twinning::Kernel::Tool::Data::Encoding::Base64 {
+export namespace Libra::Kernel::Tool::Data::Encoding::Base64 {
 
 	struct Decode :
 		Common {

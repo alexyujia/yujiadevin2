@@ -1,4 +1,4 @@
-namespace Twinning.Script.Executor.Implement.data.encoding {
+namespace Libra.Script.Executor.Implement.data.encoding {
 
 	// ------------------------------------------------
 
@@ -107,4 +107,4 @@ namespace Twinning.Script.Executor.Implement.data.encoding {
 
 }
 
-Twinning.Script.Executor.Implement.data.encoding.injector;
+Libra.Script.Executor.Implement.data.encoding.injector;

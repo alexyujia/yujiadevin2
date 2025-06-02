@@ -2,10 +2,10 @@ module;
 
 #include "kernel/common.hpp"
 
-export module twinning.kernel.tool.popcap.u_texture.version;
-import twinning.kernel.utility;
+export module libra.kernel.tool.popcap.u_texture.version;
+import libra.kernel.utility;
 
-export namespace Twinning::Kernel::Tool::PopCap::UTexture {
+export namespace Libra::Kernel::Tool::PopCap::UTexture {
 
 	M_record_of_map(
 		M_wrap(Version),
