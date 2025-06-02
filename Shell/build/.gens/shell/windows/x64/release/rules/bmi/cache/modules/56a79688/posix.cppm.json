@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "build\\.objs\\shell\\windows\\x64\\release\\shell\\third\\system\\posix.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "twinning.shell.third.system.posix",
+          "source-path": "shell\\third\\system\\posix.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "build\\.objs\\shell\\windows\\x64\\release\\shell\\bridge\\proxy.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "twinning.shell.bridge.proxy",
+          "source-path": "shell\\bridge\\proxy.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "twinning.common.std"
+        },
+        {
+          "logical-name": "twinning.shell.utility.exception"
+        },
+        {
+          "logical-name": "twinning.shell.bridge.data"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

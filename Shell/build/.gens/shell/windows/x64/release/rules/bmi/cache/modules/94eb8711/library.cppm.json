@@ -1,0 +1,30 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "build\\.objs\\shell\\windows\\x64\\release\\shell\\utility\\library.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "twinning.shell.utility.library",
+          "source-path": "shell\\utility\\library.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "twinning.common.std"
+        },
+        {
+          "logical-name": "twinning.shell.utility.string"
+        },
+        {
+          "logical-name": "twinning.shell.third.system.posix"
+        },
+        {
+          "logical-name": "twinning.shell.third.system.windows"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

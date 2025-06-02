@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2021",
+		"lib": [
+			"ES2021",
+		],
+		"module": "ES2022",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./*"],
+		},
+		"outDir": "./.build",
+		"declaration": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": false,
+		"newLine": "lf",
+	},
+	"include": [
+		"./Kernel.d.ts",
+		"./**/*",
+	],
+	"exclude": [
+		"./.build",
+	],
+}

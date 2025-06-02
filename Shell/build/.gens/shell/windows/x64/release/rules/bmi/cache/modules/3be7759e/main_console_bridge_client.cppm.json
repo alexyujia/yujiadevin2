@@ -1,0 +1,30 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "build\\.objs\\shell\\windows\\x64\\release\\shell\\main_console_bridge_client.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "twinning.shell.main_console_bridge_client",
+          "source-path": "shell\\main_console_bridge_client.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "twinning.common.std"
+        },
+        {
+          "logical-name": "twinning.shell.utility.string"
+        },
+        {
+          "logical-name": "twinning.shell.utility.interaction"
+        },
+        {
+          "logical-name": "twinning.shell.bridge.client"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

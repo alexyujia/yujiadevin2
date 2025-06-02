@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "build\\.objs\\shell\\windows\\x64\\release\\shell\\third\\tinyfiledialogs.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "twinning.shell.third.tinyfiledialogs",
+          "source-path": "shell\\third\\tinyfiledialogs.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

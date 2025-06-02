@@ -1,0 +1,30 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "build\\.objs\\shell\\windows\\x64\\release\\shell\\bridge\\launcher.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "twinning.shell.bridge.launcher",
+          "source-path": "shell\\bridge\\launcher.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "twinning.common.std"
+        },
+        {
+          "logical-name": "twinning.shell.bridge.proxy"
+        },
+        {
+          "logical-name": "twinning.shell.bridge.library"
+        },
+        {
+          "logical-name": "twinning.shell.bridge.client"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
