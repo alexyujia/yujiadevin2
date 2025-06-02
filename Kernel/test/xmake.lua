@@ -19,7 +19,7 @@ target('test', function()
 		{}
 	)
 	add_deps(
-		'kernel',
+		'yujia',
 		{}
 	)
 	if m.system:is('windows', 'linux', 'macintosh') then
